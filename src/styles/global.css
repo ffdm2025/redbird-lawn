@@ -1,4 +1,13 @@
-/* Global styles — Tailwind import added in Plan 02 */
+@import "tailwindcss";
+
+/* Font family CSS custom properties — values injected by Astro Fonts API at build time */
 :root {
-  box-sizing: border-box;
+  font-family: var(--font-body, system-ui, sans-serif);
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading, system-ui, sans-serif);
+}
+
+/* Dark mode variant — Tailwind 4 syntax */
+@variant dark (&:is(.dark *));
