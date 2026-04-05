@@ -25,3 +25,8 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Claude / GSD tool artifacts
+,claude/
+CLAUDE.MD
+settings.json
