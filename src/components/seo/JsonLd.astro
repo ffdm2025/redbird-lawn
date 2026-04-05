@@ -1,0 +1,10 @@
+---
+// src/components/seo/JsonLd.astro
+// Injects JSON-LD structured data into <head>.
+// CRITICAL: set:html is required — without it Astro escapes { } as &lbrace; &rbrace;
+interface Props {
+  schema: Record<string, unknown>;
+}
+const { schema } = Astro.props;
+---
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
