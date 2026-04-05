@@ -1,3 +1,19 @@
+---
+gsd_state_version: 1.0
+milestone: v1.0
+milestone_name: milestone
+status: executing
+stopped_at: Completed 01-foundation-02-PLAN.md
+last_updated: "2026-04-05T20:52:30.227Z"
+last_activity: 2026-04-05
+progress:
+  total_phases: 5
+  completed_phases: 0
+  total_plans: 3
+  completed_plans: 2
+  percent: 0
+---
+
 # Project State
 
 ## Project Reference
@@ -5,20 +21,21 @@
 See: .planning/PROJECT.md (updated 2026-04-05)
 
 **Core value:** Rank for "lawn care services near Wentzville, MO," load under 100ms TTFB, and convert residential homeowners into quote requests
-**Current focus:** Phase 1 — Foundation
+**Current focus:** Phase 01 — foundation
 
 ## Current Position
 
-Phase: 1 of 5 (Foundation)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-04-05 — Roadmap created, all 42 v1 requirements mapped to 5 phases
+Phase: 01 (foundation) — EXECUTING
+Plan: 3 of 3
+Status: Ready to execute
+Last activity: 2026-04-05
 
 Progress: [░░░░░░░░░░] 0%
 
 ## Performance Metrics
 
 **Velocity:**
+
 - Total plans completed: 0
 - Average duration: —
 - Total execution time: 0 hours
@@ -30,10 +47,13 @@ Progress: [░░░░░░░░░░] 0%
 | - | - | - | - |
 
 **Recent Trend:**
+
 - Last 5 plans: —
 - Trend: —
 
 *Updated after each plan completion*
+| Phase 01-foundation P01 | 11 | 2 tasks | 9 files |
+| Phase 01-foundation P02 | 18 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -46,6 +66,12 @@ Recent decisions affecting current work:
 - Init: Cloudflare Pages over Vercel — free unlimited bandwidth, DNS already on CF
 - Init: Tailwind 4 via @tailwindcss/vite — replaces deprecated @astrojs/tailwind
 - Init: @vapi-ai/web 2.5.2 pinned exact — VAPI moves fast, pin prevents breaking changes
+- [Phase 01-foundation]: Pinned astro@6.1.3 exact — fixes Cloudflare dev rendering bug in 6.1.x
+- [Phase 01-foundation]: Used @tailwindcss/vite not @astrojs/tailwind — deprecated for Tailwind 4
+- [Phase 01-foundation]: NAP data centralized in src/lib/constants.ts — never re-typed in components
+- [Phase 01-foundation]: fonts: is top-level in astro.config.mjs (not experimental:) — verified against Astro 6.1.3 docs
+- [Phase 01-foundation]: Space Grotesk --font-heading preloaded for LCP; Inter --font-body not preloaded
+- [Phase 01-foundation]: @variant dark (&:is(.dark *)) for dark mode — no tailwind.config.js needed in Tailwind 4
 
 ### Pending Todos
 
@@ -60,6 +86,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-05
-Stopped at: Roadmap created. Ready for `/gsd:plan-phase 1`
+Last session: 2026-04-05T20:52:30.212Z
+Stopped at: Completed 01-foundation-02-PLAN.md
 Resume file: None

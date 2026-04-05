@@ -30,7 +30,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Space Grotesk and Inter fonts load from self-hosted assets — zero external font requests in DevTools Network tab
   4. A Tailwind utility class applied to any element renders correctly in the browser
   5. `lib/constants.ts` exports the canonical NAP (name, address, phone, email) and is the only place this data is defined
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [x] 01-01-PLAN.md — Scaffold Astro 6 project with pinned deps and canonical NAP constants
+- [x] 01-02-PLAN.md — Wire Tailwind 4, Astro Fonts API (Space Grotesk + Inter), responsive layout scaffold
+- [ ] 01-03-PLAN.md — Deploy to Cloudflare Pages, verify *.pages.dev URL, disable Auto Minify
 
 ### Phase 2: Layout Shell + SEO
 **Goal**: Every page has a complete HTML head with canonical meta tags, LocalBusiness JSON-LD schema, sitemap.xml, and robots.txt — SEO infrastructure is in place before any content is written
@@ -89,7 +94,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 2/3 | In Progress|  |
 | 2. Layout Shell + SEO | 0/TBD | Not started | - |
 | 3. Static Content + Visual | 0/TBD | Not started | - |
 | 4. React Islands + Integrations | 0/TBD | Not started | - |

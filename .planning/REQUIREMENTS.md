@@ -7,11 +7,11 @@
 
 ### Foundation
 
-- [ ] **FOUN-01**: Site built with Astro 6 static output, TypeScript throughout
-- [ ] **FOUN-02**: Tailwind CSS 4 integrated via @tailwindcss/vite plugin
-- [ ] **FOUN-03**: Self-hosted fonts (Space Grotesk headings, Inter body) via Astro Fonts API
-- [ ] **FOUN-04**: Responsive mobile-first layout with Tailwind breakpoints
-- [ ] **FOUN-05**: Canonical NAP string defined and used as single source of truth across all components
+- [x] **FOUN-01**: Site built with Astro 6 static output, TypeScript throughout
+- [x] **FOUN-02**: Tailwind CSS 4 integrated via @tailwindcss/vite plugin
+- [x] **FOUN-03**: Self-hosted fonts (Space Grotesk headings, Inter body) via Astro Fonts API
+- [x] **FOUN-04**: Responsive mobile-first layout with Tailwind breakpoints
+- [x] **FOUN-05**: Canonical NAP string defined and used as single source of truth across all components
 
 ### Content
 
@@ -109,11 +109,11 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUN-01 | Phase 1 | Pending |
-| FOUN-02 | Phase 1 | Pending |
-| FOUN-03 | Phase 1 | Pending |
-| FOUN-04 | Phase 1 | Pending |
-| FOUN-05 | Phase 1 | Pending |
+| FOUN-01 | Phase 1 | Complete |
+| FOUN-02 | Phase 1 | Complete |
+| FOUN-03 | Phase 1 | Complete |
+| FOUN-04 | Phase 1 | Complete |
+| FOUN-05 | Phase 1 | Complete |
 | DEPL-01 | Phase 1 | Pending |
 | DEPL-02 | Phase 1 | Pending |
 | DEPL-04 | Phase 1 | Pending |
