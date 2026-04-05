@@ -1,0 +1,21 @@
+---
+// src/components/astro/SectionWrapper.astro
+// Wraps any content block in a data-animate div for scroll-triggered fade-up.
+// The IntersectionObserver in Layout.astro watches all [data-animate] elements
+// and adds .in-view when they reach 15% threshold.
+// Usage: <SectionWrapper delay={200}><YourSection /></SectionWrapper>
+
+interface Props {
+  class?: string;
+  delay?: number;
+}
+
+const { class: className = '', delay } = Astro.props;
+---
+<div
+  data-animate
+  data-animate-delay={delay}
+  class={className}
+>
+  <slot />
+</div>

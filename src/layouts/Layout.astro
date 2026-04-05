@@ -30,5 +30,24 @@ const schema = buildLocalBusinessSchema();
   </head>
   <body>
     <slot />
+    <!-- Scroll animation observer — fires once per element at 15% threshold -->
+    <!-- Per VISL-02: fade-up 20px, 0.6s, IntersectionObserver -->
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in-view');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+
+      document.querySelectorAll('[data-animate]').forEach((el) => {
+        observer.observe(el);
+      });
+    </script>
   </body>
 </html>
