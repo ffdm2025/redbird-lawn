@@ -40,20 +40,23 @@ Plans:
 ### Phase 2: Layout Shell + SEO
 **Goal**: Every page has a complete HTML head with canonical meta tags, LocalBusiness JSON-LD schema, sitemap.xml, and robots.txt — SEO infrastructure is in place before any content is written
 **Depends on**: Phase 1
-**Requirements**: SEO-01, SEO-02, SEO-03, SEO-04, SEO-05, SEO-06, SEO-07
+**Requirements**: SEO-01, SEO-02, SEO-03, SEO-05, SEO-06, SEO-07
 **Success Criteria** (what must be TRUE):
   1. Google's Rich Results Test validates the LocalBusiness JSON-LD schema with no errors, and the NAP in the schema matches `lib/constants.ts` exactly
   2. The page `<title>` is "Redbird Lawn Care Service | Top Rated Mowing in Wentzville, MO" and the meta description contains "63385"
   3. `sitemap.xml` is accessible at `/sitemap-index.xml` and contains the canonical site URL
   4. `robots.txt` is accessible at `/robots.txt` and allows all crawlers
-  5. Page source shows proper H1 → H2 → H3 hierarchy with no skipped heading levels
-**Plans**: TBD
-**UI hint**: yes
+  5. BaseHead.astro component exists and is imported in Layout.astro head section
+**Plans**: 2 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — SEO component layer: schema.ts, BaseHead.astro, JsonLd.astro, Layout.astro update
+- [ ] 02-02-PLAN.md — Static files + sitemap verification: robots.txt, og-image.png, @astrojs/sitemap build check
 
 ### Phase 3: Static Content + Visual
 **Goal**: A homeowner visiting the site sees the complete Redbird brand experience — hero, services, about Alberto, real testimonials, trust signals, footer — all rendered with zero JavaScript, correct visual design, and scroll animations
 **Depends on**: Phase 2
-**Requirements**: CONT-01, CONT-02, CONT-03, CONT-04, CONT-05, CONT-06, CONV-01, CONV-02, CONV-04, CONV-05, VISL-01, VISL-02, VISL-03, VISL-04
+**Requirements**: CONT-01, CONT-02, CONT-03, CONT-04, CONT-05, CONT-06, CONV-01, CONV-02, CONV-04, CONV-05, VISL-01, VISL-02, VISL-03, VISL-04, SEO-04
 **Success Criteria** (what must be TRUE):
   1. The hero H1 reads "Expert Residential Lawn Care in Wentzville, MO" and the "Get a Free Quote" CTA button is visible above the fold on mobile
   2. The services section shows all 4 services (Weekly Mowing, Trimming, Mulch & Bed Maintenance, Seasonal Cleanups) with detailed descriptions of what's included
@@ -95,7 +98,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/3 | In Progress|  |
-| 2. Layout Shell + SEO | 0/TBD | Not started | - |
+| 2. Layout Shell + SEO | 0/2 | Not started | - |
 | 3. Static Content + Visual | 0/TBD | Not started | - |
 | 4. React Islands + Integrations | 0/TBD | Not started | - |
 | 5. QA + Launch | 0/TBD | Not started | - |
