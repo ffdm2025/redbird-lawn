@@ -1,0 +1,89 @@
+---
+// src/components/astro/Footer.astro
+// Full NAP, email, Facebook, service area cities, quick nav links (CONT-06)
+// All business data from constants.ts — NEVER hardcode NAP here
+import { NAP, SOCIAL } from '../../lib/constants';
+
+const serviceAreaCities = [
+  'Wentzville', "O'Fallon", 'Lake Saint Louis', 'Troy', 'Foristell'
+];
+
+const currentYear = new Date().getFullYear();
+---
+<footer
+  class="bg-forest-green dark:bg-gray-950 text-white pt-12 pb-6 px-4"
+  aria-label="Site footer"
+>
+  <div class="max-w-5xl mx-auto">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+
+      <!-- NAP column -->
+      <div class="lg:col-span-2">
+        <p class="font-heading font-bold text-xl text-white mb-4">{NAP.name}</p>
+        <address class="not-italic space-y-2 text-light-green/90 text-sm leading-relaxed">
+          <p>{NAP.address.city}, {NAP.address.state} {NAP.address.zip}</p>
+          <p>
+            <a href={NAP.phoneHref} class="hover:text-white transition-colors font-medium">
+              {NAP.phone}
+            </a>
+          </p>
+          <p>
+            <a href={`mailto:${NAP.email}`} class="hover:text-white transition-colors">
+              {NAP.email}
+            </a>
+          </p>
+          {SOCIAL.facebook !== '[CONFIRM FROM GBP]' && (
+            <p>
+              <a
+                href={SOCIAL.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-white transition-colors"
+                aria-label="Redbird Lawn Care on Facebook"
+              >
+                Facebook
+              </a>
+            </p>
+          )}
+        </address>
+      </div>
+
+      <!-- Quick nav column -->
+      <div>
+        <h3 class="font-heading font-semibold text-white text-sm uppercase tracking-wider mb-4">
+          Quick Links
+        </h3>
+        <nav aria-label="Footer navigation">
+          <ul class="space-y-2 text-sm text-light-green/80">
+            <li><a href="#services" class="hover:text-white transition-colors">Services</a></li>
+            <li><a href="#about" class="hover:text-white transition-colors">About</a></li>
+            <li><a href="#testimonials" class="hover:text-white transition-colors">Reviews</a></li>
+            <li><a href="#contact" class="hover:text-white transition-colors">Get a Quote</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Service area column -->
+      <div>
+        <h3 class="font-heading font-semibold text-white text-sm uppercase tracking-wider mb-4">
+          Service Area
+        </h3>
+        <ul class="space-y-1.5 text-sm text-light-green/80" aria-label="Cities we serve">
+          {serviceAreaCities.map((city) => (
+            <li class="flex items-center gap-2">
+              <span class="text-redbird-red" aria-hidden="true">●</span>
+              {city}, MO
+            </li>
+          ))}
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-light-green/60">
+      <p>&copy; {currentYear} {NAP.name}. All rights reserved.</p>
+      <p>Proudly serving Wentzville and St. Charles County, MO</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,81 @@
+---
+// src/components/astro/Testimonials.astro
+// PLACEHOLDER REVIEWS — Alberto MUST replace with real Google reviews before launch
+// Per CONTEXT.md: "use placeholder structure with realistic names — marked clearly in code"
+// CONT-05 requires 3 real reviews with names — these are structural placeholders only
+// H2 section heading (SEO-04), H3 for reviewer names
+const reviews = [
+  {
+    // PLACEHOLDER: Replace with real Google review text
+    text: "Alberto and his crew show up when they say they will and the yard always looks great afterward. Been using Redbird for two seasons now — best money I spend on the house.",
+    author: "Mike T.",
+    location: "Wentzville, MO",
+    rating: 5,
+  },
+  {
+    // PLACEHOLDER: Replace with real Google review text
+    text: "Finally found a lawn service that actually edges properly. The detail work alone is worth it. Highly recommend to anyone in the area.",
+    author: "Sarah K.",
+    location: "O'Fallon, MO",
+    rating: 5,
+  },
+  {
+    // PLACEHOLDER: Replace with real Google review text
+    text: "Called for a spring cleanup and they had the whole yard done in under two hours. Price was fair and they hauled everything away. Will definitely be back.",
+    author: "James R.",
+    location: "Lake Saint Louis, MO",
+    rating: 5,
+  },
+];
+---
+<section
+  id="testimonials"
+  class="py-16 sm:py-20 px-4 bg-gray-50 dark:bg-gray-900"
+  aria-labelledby="testimonials-heading"
+>
+  <div class="max-w-5xl mx-auto">
+    <!-- Section header -->
+    <div class="text-center mb-12" data-animate>
+      <h2
+        id="testimonials-heading"
+        class="font-heading font-bold text-3xl sm:text-4xl text-forest-green dark:text-light-green mb-4"
+      >
+        What Customers Say
+      </h2>
+      <p class="text-gray-600 dark:text-gray-300">Real reviews from your Wentzville neighbors.</p>
+    </div>
+
+    <!-- Review cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {reviews.map((review, i) => (
+        <figure
+          class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 flex flex-col hover:border-redbird-red hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200"
+          data-animate
+          data-animate-delay={String(i * 100)}
+        >
+          <!-- 5 stars -->
+          <div class="flex gap-0.5 mb-4" aria-label="5 out of 5 stars" role="img">
+            {Array.from({ length: review.rating }).map(() => (
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="text-redbird-red" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            ))}
+          </div>
+
+          <!-- Review text -->
+          <blockquote class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed flex-1 mb-4">
+            "{review.text}"
+          </blockquote>
+
+          <!-- Attribution — H3 for reviewer (SEO-04) -->
+          <figcaption>
+            <h3 class="font-heading font-semibold text-forest-green dark:text-light-green text-sm">
+              {review.author}
+            </h3>
+            <p class="text-gray-400 dark:text-gray-500 text-xs mt-0.5">{review.location}</p>
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>
