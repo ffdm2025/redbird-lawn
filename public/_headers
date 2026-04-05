@@ -1,0 +1,9 @@
+# Cloudflare Pages HTTP headers
+# Docs: https://developers.cloudflare.com/pages/configuration/headers/
+# script-src includes 'unsafe-eval' — required by VAPI/Daily.co WebRTC codec detection layer
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://*.vapi.ai wss://*.vapi.ai https://*.daily.co wss://*.daily.co; frame-src 'none'; object-src 'none'
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(self), geolocation=()
