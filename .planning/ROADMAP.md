@@ -79,8 +79,12 @@ Plans:
   2. The VAPI floating button renders without errors, clicking it initiates a voice call with Vivian, and microphone permission denial shows a graceful error message (not a blank screen or console crash)
   3. The mobile hamburger menu opens and closes the navigation drawer on touch devices
   4. The page build does not include the VAPI widget in the SSR pass — only `client:only="react"` hydration
-**Plans**: TBD
-**UI hint**: yes
+**Plans**: 3 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — CSP headers, env var scaffold, MobileNav island wired into Header
+- [ ] 04-02-PLAN.md — ContactForm (GHL CORS probe gate + form island) + VAPIWidget island wired into Layout
+- [ ] 04-03-PLAN.md — Human verification of all three islands end-to-end
 
 ### Phase 5: QA + Launch
 **Goal**: The site passes Lighthouse 95+/100/95+/100, stays within all bundle budgets, has a custom domain live on Cloudflare Pages, and is ready for a homeowner to find via Google search
@@ -104,5 +108,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation | 2/3 | In Progress|  |
 | 2. Layout Shell + SEO | 1/2 | In Progress|  |
 | 3. Static Content + Visual | 3/3 | Complete   | 2026-04-05 |
-| 4. React Islands + Integrations | 0/TBD | Not started | - |
+| 4. React Islands + Integrations | 0/3 | Not started | - |
 | 5. QA + Launch | 0/TBD | Not started | - |
