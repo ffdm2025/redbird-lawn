@@ -67,7 +67,7 @@ Plans:
 
 Plans:
 - [x] 03-01-PLAN.md — Visual design foundation: @theme color tokens, animation CSS, SectionWrapper, IntersectionObserver
-- [ ] 03-02-PLAN.md — Above-fold sections: Header (sticky + click-to-call), Hero (H1 + CTA), TrustBar
+- [x] 03-02-PLAN.md — Above-fold sections: Header (sticky + click-to-call), Hero (H1 + CTA), TrustBar
 - [ ] 03-03-PLAN.md — Content sections + final composition: Services, About, Testimonials, Footer, index.astro wired
 
 ### Phase 4: React Islands + Integrations
@@ -103,6 +103,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/3 | In Progress|  |
 | 2. Layout Shell + SEO | 1/2 | In Progress|  |
-| 3. Static Content + Visual | 1/3 | In Progress|  |
+| 3. Static Content + Visual | 2/3 | In Progress|  |
 | 4. React Islands + Integrations | 0/TBD | Not started | - |
 | 5. QA + Launch | 0/TBD | Not started | - |
