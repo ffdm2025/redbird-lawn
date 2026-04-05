@@ -1,0 +1,28 @@
+---
+// src/components/astro/TrustBar.astro
+// Trust signals displayed prominently above the fold (CONT-02)
+// "Locally Owned & Operated" | "Fully Insured" | "5-Star Rated"
+---
+<div class="flex flex-wrap items-center justify-center gap-4 sm:gap-8 py-3 px-4 bg-forest-green dark:bg-gray-900">
+  <span class="flex items-center gap-2 text-white text-sm font-medium">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="text-light-green shrink-0">
+      <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+      <polyline points="9 22 9 12 15 12 15 22"></polyline>
+    </svg>
+    Locally Owned &amp; Operated
+  </span>
+  <span class="text-light-green/50 hidden sm:inline" aria-hidden="true">|</span>
+  <span class="flex items-center gap-2 text-white text-sm font-medium">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="text-light-green shrink-0">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+    </svg>
+    Fully Insured
+  </span>
+  <span class="text-light-green/50 hidden sm:inline" aria-hidden="true">|</span>
+  <span class="flex items-center gap-2 text-white text-sm font-medium">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="text-light-green shrink-0">
+      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+    </svg>
+    5-Star Rated
+  </span>
+</div>

@@ -1,13 +1,18 @@
 ---
+// src/pages/index.astro
+// Main page — composes all section components
+// Sections from Plan 02 (this plan): Header, TrustBar, Hero
+// Sections from Plan 03: Services, About, Testimonials, ContactPlaceholder, Footer
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/astro/Header.astro';
+import TrustBar from '../components/astro/TrustBar.astro';
+import Hero from '../components/astro/Hero.astro';
 ---
 <Layout title="Redbird Lawn Care Service | Top Rated Mowing in Wentzville, MO">
-  <main class="min-h-screen p-8">
-    <h1 class="text-4xl font-bold text-green-800">
-      Expert Residential Lawn Care in Wentzville, MO
-    </h1>
-    <p class="mt-4 text-lg text-gray-600">
-      Scaffold placeholder — content coming in Phase 3
-    </p>
+  <Header />
+  <TrustBar />
+  <main id="main-content">
+    <Hero />
+    <!-- Services, About, Testimonials, Contact, Footer sections added in Plan 03 -->
   </main>
 </Layout>

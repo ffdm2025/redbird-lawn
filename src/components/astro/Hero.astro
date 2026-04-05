@@ -1,0 +1,93 @@
+---
+// src/components/astro/Hero.astro
+// H1 (SEO-04: one per page), subheadline, primary CTA, click-to-call (CONV-01, CONV-02)
+// Response time promise near CTA (CONV-04)
+// Gradient + geometric shapes background — no stock photos (locked decision CONTEXT.md)
+// Dark mode support (VISL-04)
+import { NAP } from '../../lib/constants';
+---
+<section
+  id="hero"
+  class="relative overflow-hidden bg-forest-green dark:bg-gray-900 py-20 sm:py-28 px-4"
+  aria-labelledby="hero-heading"
+>
+  <!-- Geometric background shapes — CSS only, no images -->
+  <div class="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+    <!-- Large circle top-right -->
+    <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-mid-green/30 dark:bg-mid-green/15"></div>
+    <!-- Small circle bottom-left -->
+    <div class="absolute -bottom-16 -left-16 w-64 h-64 rounded-full bg-light-green/20 dark:bg-light-green/10"></div>
+    <!-- Diagonal stripe accent -->
+    <div class="absolute top-0 left-1/2 w-px h-full bg-light-green/10 -rotate-12 origin-top"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="relative max-w-3xl mx-auto text-center">
+    <!-- Trust bar inline — visible above fold on mobile -->
+    <p class="inline-block bg-redbird-red text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-6">
+      Serving Wentzville &amp; Surrounding Areas
+    </p>
+
+    <!-- H1 — exact text required by CONT-01 and SEO-04 -->
+    <h1
+      id="hero-heading"
+      class="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl text-white leading-tight mb-6"
+      data-animate
+    >
+      Expert Residential Lawn Care in Wentzville, MO
+    </h1>
+
+    <!-- Subheadline -->
+    <p
+      class="text-light-green text-lg sm:text-xl mb-8 max-w-xl mx-auto leading-relaxed"
+      data-animate
+      data-animate-delay="100"
+    >
+      Professional mowing, trimming, and seasonal cleanups. Your lawn, taken care of — every time.
+    </p>
+
+    <!-- CTA buttons -->
+    <div
+      class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8"
+      data-animate
+      data-animate-delay="200"
+    >
+      <!-- Primary CTA: Get a Free Quote (CONV-01) — anchors to #contact form (Phase 4) -->
+      <a
+        href="#contact"
+        class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-redbird-red text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#a01830] hover:scale-[1.02] hover:shadow-lg active:scale-100 transition-all duration-200"
+        aria-label="Get a free lawn care quote"
+      >
+        Get a Free Quote
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m9 18 6-6-6-6"></path>
+        </svg>
+      </a>
+
+      <!-- Secondary CTA: Click-to-call (CONV-02) -->
+      <a
+        href={NAP.phoneHref}
+        class="w-full sm:w-auto inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 hover:border-white hover:scale-[1.02] active:scale-100 transition-all duration-200"
+        aria-label={`Call us at ${NAP.phone}`}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.65 3.39 2 2 0 0 1 3.62 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+        {NAP.phone}
+      </a>
+    </div>
+
+    <!-- Response time promise (CONV-04) -->
+    <p
+      class="text-light-green/80 text-sm"
+      data-animate
+      data-animate-delay="300"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="inline mr-1 -mt-0.5">
+        <circle cx="12" cy="12" r="10"></circle>
+        <polyline points="12 6 12 12 16 14"></polyline>
+      </svg>
+      We respond within 24 hours — usually same day.
+    </p>
+  </div>
+</section>
