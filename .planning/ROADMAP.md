@@ -63,8 +63,12 @@ Plans:
   3. The about section shows Alberto Murillo's photo and references his Wentzville community connection
   4. The testimonials section shows at least 3 real customer reviews with names (no placeholder text)
   5. On mobile, a sticky header with the phone number (314) 497-6152 is visible at all times while scrolling
-**Plans**: TBD
-**UI hint**: yes
+**Plans**: 3 plans
+
+Plans:
+- [x] 03-01-PLAN.md — Visual design foundation: @theme color tokens, animation CSS, SectionWrapper, IntersectionObserver
+- [ ] 03-02-PLAN.md — Above-fold sections: Header (sticky + click-to-call), Hero (H1 + CTA), TrustBar
+- [ ] 03-03-PLAN.md — Content sections + final composition: Services, About, Testimonials, Footer, index.astro wired
 
 ### Phase 4: React Islands + Integrations
 **Goal**: A visitor can submit a quote request form (lead delivered to GHL), navigate the site on mobile via the hamburger drawer, and optionally speak with Vivian the AI assistant — all three React islands work without crashing the static build
@@ -99,6 +103,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/3 | In Progress|  |
 | 2. Layout Shell + SEO | 1/2 | In Progress|  |
-| 3. Static Content + Visual | 0/TBD | Not started | - |
+| 3. Static Content + Visual | 1/3 | In Progress|  |
 | 4. React Islands + Integrations | 0/TBD | Not started | - |
 | 5. QA + Launch | 0/TBD | Not started | - |

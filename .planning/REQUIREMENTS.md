@@ -52,10 +52,10 @@
 
 ### Visual Polish
 
-- [ ] **VISL-01**: Professional color palette with Redbird red accent against greens, whites, dark grays
-- [ ] **VISL-02**: Scroll-triggered fade-in/slide-up animations via CSS + Intersection Observer
-- [ ] **VISL-03**: Subtle hover effects on buttons, service cards, and interactive elements
-- [ ] **VISL-04**: Dark mode support via Tailwind dark mode classes
+- [x] **VISL-01**: Professional color palette with Redbird red accent against greens, whites, dark grays
+- [x] **VISL-02**: Scroll-triggered fade-in/slide-up animations via CSS + Intersection Observer
+- [x] **VISL-03**: Subtle hover effects on buttons, service cards, and interactive elements
+- [x] **VISL-04**: Dark mode support via Tailwind dark mode classes
 
 ### Voice Assistant
 
@@ -134,10 +134,10 @@
 | CONV-02 | Phase 3 | Pending |
 | CONV-04 | Phase 3 | Pending |
 | CONV-05 | Phase 3 | Pending |
-| VISL-01 | Phase 3 | Pending |
-| VISL-02 | Phase 3 | Pending |
-| VISL-03 | Phase 3 | Pending |
-| VISL-04 | Phase 3 | Pending |
+| VISL-01 | Phase 3 | Complete |
+| VISL-02 | Phase 3 | Complete |
+| VISL-03 | Phase 3 | Complete |
+| VISL-04 | Phase 3 | Complete |
 | CONV-03 | Phase 4 | Pending |
 | VAPI-01 | Phase 4 | Pending |
 | VAPI-02 | Phase 4 | Pending |
