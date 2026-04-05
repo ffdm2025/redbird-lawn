@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 /* Font family CSS custom properties — values injected by Astro Fonts API at build time */
+/* CRITICAL: Do NOT add --font-heading or --font-body to @theme — Astro Fonts API injects these */
 :root {
   font-family: var(--font-body, system-ui, sans-serif);
 }
@@ -11,3 +12,53 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Dark mode variant — Tailwind 4 syntax */
 @variant dark (&:is(.dark *));
+
+/* ─────────────────────────────────────────────
+   BRAND COLOR TOKENS
+   Generates Tailwind utilities: bg-redbird-red, text-forest-green, etc.
+   Per VISL-01 locked decision in 03-CONTEXT.md
+   ───────────────────────────────────────────── */
+@theme {
+  --color-redbird-red: #C41E3A;
+  --color-forest-green: #1a472a;
+  --color-mid-green: #2d6a4f;
+  --color-light-green: #52b788;
+  --color-dark-bg: #1a1a2e;
+}
+
+/* ─────────────────────────────────────────────
+   SCROLL ANIMATION — CSS SIDE
+   JS observer adds .in-view class via IntersectionObserver in Layout.astro
+   Per VISL-02 locked decision: fade-up 20px, 0.6s duration
+   ───────────────────────────────────────────── */
+[data-animate] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+[data-animate].in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger delays — apply data-animate-delay="100" etc. on child elements */
+[data-animate-delay="100"] { transition-delay: 100ms; }
+[data-animate-delay="200"] { transition-delay: 200ms; }
+[data-animate-delay="300"] { transition-delay: 300ms; }
+[data-animate-delay="400"] { transition-delay: 400ms; }
+[data-animate-delay="500"] { transition-delay: 500ms; }
+
+/* ─────────────────────────────────────────────
+   HOVER EFFECTS
+   Per VISL-03: button hover = scale + shadow, card hover = border glow + lift
+   ───────────────────────────────────────────── */
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  [data-animate] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
