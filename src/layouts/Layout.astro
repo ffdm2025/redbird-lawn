@@ -8,6 +8,7 @@ import '../styles/global.css';
 import BaseHead from '../components/seo/BaseHead.astro';
 import JsonLd from '../components/seo/JsonLd.astro';
 import { buildLocalBusinessSchema } from '../lib/schema';
+import VAPIWidget from '../components/react/VAPIWidget';
 
 interface Props {
   title?: string;
@@ -30,6 +31,7 @@ const schema = buildLocalBusinessSchema();
   </head>
   <body>
     <slot />
+    <VAPIWidget client:only="react" />
     <!-- Scroll animation observer — fires once per element at 15% threshold -->
     <!-- Per VISL-02: fade-up 20px, 0.6s, IntersectionObserver -->
     <script>
