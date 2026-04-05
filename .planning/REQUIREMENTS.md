@@ -109,13 +109,56 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| *(populated during roadmap creation)* | | |
+| FOUN-01 | Phase 1 | Pending |
+| FOUN-02 | Phase 1 | Pending |
+| FOUN-03 | Phase 1 | Pending |
+| FOUN-04 | Phase 1 | Pending |
+| FOUN-05 | Phase 1 | Pending |
+| DEPL-01 | Phase 1 | Pending |
+| DEPL-02 | Phase 1 | Pending |
+| DEPL-04 | Phase 1 | Pending |
+| SEO-01 | Phase 2 | Pending |
+| SEO-02 | Phase 2 | Pending |
+| SEO-03 | Phase 2 | Pending |
+| SEO-04 | Phase 2 | Pending |
+| SEO-05 | Phase 2 | Pending |
+| SEO-06 | Phase 2 | Pending |
+| SEO-07 | Phase 2 | Pending |
+| CONT-01 | Phase 3 | Pending |
+| CONT-02 | Phase 3 | Pending |
+| CONT-03 | Phase 3 | Pending |
+| CONT-04 | Phase 3 | Pending |
+| CONT-05 | Phase 3 | Pending |
+| CONT-06 | Phase 3 | Pending |
+| CONV-01 | Phase 3 | Pending |
+| CONV-02 | Phase 3 | Pending |
+| CONV-04 | Phase 3 | Pending |
+| CONV-05 | Phase 3 | Pending |
+| VISL-01 | Phase 3 | Pending |
+| VISL-02 | Phase 3 | Pending |
+| VISL-03 | Phase 3 | Pending |
+| VISL-04 | Phase 3 | Pending |
+| CONV-03 | Phase 4 | Pending |
+| VAPI-01 | Phase 4 | Pending |
+| VAPI-02 | Phase 4 | Pending |
+| VAPI-03 | Phase 4 | Pending |
+| VAPI-04 | Phase 4 | Pending |
+| PERF-01 | Phase 5 | Pending |
+| PERF-02 | Phase 5 | Pending |
+| PERF-03 | Phase 5 | Pending |
+| PERF-04 | Phase 5 | Pending |
+| PERF-05 | Phase 5 | Pending |
+| PERF-06 | Phase 5 | Pending |
+| PERF-07 | Phase 5 | Pending |
+| DEPL-03 | Phase 5 | Pending |
 
 **Coverage:**
-- v1 requirements: 35 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 35
+- v1 requirements: 42 total
+- Mapped to phases: 42
+- Unmapped: 0
+
+**Note:** REQUIREMENTS.md initially listed 35 requirements. Upon direct count during roadmap creation, the actual total is 42 (FOUN×5, CONT×6, CONV×5, SEO×7, PERF×7, VISL×4, VAPI×4, DEPL×4). All 42 are mapped.
 
 ---
 *Requirements defined: 2026-04-05*
-*Last updated: 2026-04-05 after initial definition*
+*Last updated: 2026-04-05 after roadmap creation — traceability populated*
