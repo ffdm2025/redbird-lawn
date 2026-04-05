@@ -66,13 +66,13 @@ completed: 2026-04-05
 - `.nvmrc` confirmed containing `22` for Cloudflare Pages Node version pin
 - `astro.config.mjs` confirmed `output: 'static'` — no adapter needed
 - `.gitignore` updated to exclude Claude/GSD tool artifacts (`,claude/`, `CLAUDE.MD`, `settings.json`)
-- Cloudflare Pages connected to git repo, deployed, and verified by user (see Task 2 checkpoint)
+- Cloudflare Pages deployment DEFERRED by user — will deploy after content phases complete
 
 ## Deployment Details
 
-- **Live URL:** *(populated after user confirms deployment)*
-- **Node.js in build log:** 22.x confirmed
-- **Auto Minify HTML:** Disabled
+- **Live URL:** DEFERRED — user skipped deploy to maintain build momentum
+- **Node.js in build log:** Pending deploy
+- **Auto Minify HTML:** Pending deploy
 
 ## Task Commits
 
