@@ -51,7 +51,7 @@ Plans:
 
 Plans:
 - [x] 02-01-PLAN.md — SEO component layer: schema.ts, BaseHead.astro, JsonLd.astro, Layout.astro update
-- [ ] 02-02-PLAN.md — Static files + sitemap verification: robots.txt, og-image.png, @astrojs/sitemap build check
+- [x] 02-02-PLAN.md — Static files + sitemap verification: robots.txt, og-image.png, @astrojs/sitemap build check
 
 ### Phase 3: Static Content + Visual
 **Goal**: A homeowner visiting the site sees the complete Redbird brand experience — hero, services, about Alberto, real testimonials, trust signals, footer — all rendered with zero JavaScript, correct visual design, and scroll animations

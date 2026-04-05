@@ -36,8 +36,8 @@
 - [x] **SEO-02**: Meta title "Redbird Lawn Care Service | Top Rated Mowing in Wentzville, MO"
 - [x] **SEO-03**: Meta description optimized for "lawn care services near Wentzville, MO" with zip code 63385
 - [ ] **SEO-04**: Semantic HTML (proper H1, H2, H3 hierarchy)
-- [ ] **SEO-05**: sitemap.xml auto-generated via @astrojs/sitemap with canonical URL
-- [ ] **SEO-06**: robots.txt properly configured (allow all)
+- [x] **SEO-05**: sitemap.xml auto-generated via @astrojs/sitemap with canonical URL
+- [x] **SEO-06**: robots.txt properly configured (allow all)
 - [x] **SEO-07**: Service area cities mentioned in content (Wentzville, O'Fallon, Lake Saint Louis, Troy, Foristell)
 
 ### Performance
@@ -121,8 +121,8 @@
 | SEO-02 | Phase 2 | Complete |
 | SEO-03 | Phase 2 | Complete |
 | SEO-04 | Phase 2 | Pending |
-| SEO-05 | Phase 2 | Pending |
-| SEO-06 | Phase 2 | Pending |
+| SEO-05 | Phase 2 | Complete |
+| SEO-06 | Phase 2 | Complete |
 | SEO-07 | Phase 2 | Complete |
 | CONT-01 | Phase 3 | Pending |
 | CONT-02 | Phase 3 | Pending |
