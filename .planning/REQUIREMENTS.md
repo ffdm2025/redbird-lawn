@@ -1,0 +1,121 @@
+# Requirements: Redbird Lawn Care Website
+
+**Defined:** 2026-04-05
+**Core Value:** The website must rank for "lawn care services near Wentzville, MO," load in under 100ms TTFB, and convert residential homeowners into quote requests.
+
+## v1 Requirements
+
+### Foundation
+
+- [ ] **FOUN-01**: Site built with Astro 6 static output, TypeScript throughout
+- [ ] **FOUN-02**: Tailwind CSS 4 integrated via @tailwindcss/vite plugin
+- [ ] **FOUN-03**: Self-hosted fonts (Space Grotesk headings, Inter body) via Astro Fonts API
+- [ ] **FOUN-04**: Responsive mobile-first layout with Tailwind breakpoints
+- [ ] **FOUN-05**: Canonical NAP string defined and used as single source of truth across all components
+
+### Content
+
+- [ ] **CONT-01**: Hero section with H1 "Expert Residential Lawn Care in Wentzville, MO" and subheadline
+- [ ] **CONT-02**: Trust bar with "Locally Owned & Operated" | "Fully Insured" | "5-Star Rated"
+- [ ] **CONT-03**: Services section with 4 cards (Weekly Mowing, Trimming, Mulch & Bed Maintenance, Seasonal Cleanups) including detailed descriptions of what's included
+- [ ] **CONT-04**: About section featuring Alberto Murillo with photo and Wentzville community connection
+- [ ] **CONT-05**: Testimonials section with minimum 3 real customer reviews with names
+- [ ] **CONT-06**: Footer with NAP, email (sales@redbirdlawnservic.com), Facebook link, and sitemap link
+
+### Conversion
+
+- [ ] **CONV-01**: Primary CTA "Get a Free Quote" button in hero linking to contact form
+- [ ] **CONV-02**: Click-to-call button for (314) 497-6152 in header and hero
+- [ ] **CONV-03**: Lead capture form (Name, Address, Phone, Service Requested) posting to GHL webhook
+- [ ] **CONV-04**: Response time promise displayed near form ("We respond within 24 hours")
+- [ ] **CONV-05**: Sticky mobile header with phone number visible at all times
+
+### SEO
+
+- [ ] **SEO-01**: LocalBusiness JSON-LD schema with exact NAP matching GBP and Facebook
+- [ ] **SEO-02**: Meta title "Redbird Lawn Care Service | Top Rated Mowing in Wentzville, MO"
+- [ ] **SEO-03**: Meta description optimized for "lawn care services near Wentzville, MO" with zip code 63385
+- [ ] **SEO-04**: Semantic HTML (proper H1, H2, H3 hierarchy)
+- [ ] **SEO-05**: sitemap.xml auto-generated via @astrojs/sitemap with canonical URL
+- [ ] **SEO-06**: robots.txt properly configured (allow all)
+- [ ] **SEO-07**: Service area cities mentioned in content (Wentzville, O'Fallon, Lake Saint Louis, Troy, Foristell)
+
+### Performance
+
+- [ ] **PERF-01**: Lighthouse Performance score 95+
+- [ ] **PERF-02**: Lighthouse SEO score 100
+- [ ] **PERF-03**: Lighthouse Accessibility score 95+
+- [ ] **PERF-04**: Lighthouse Best Practices score 100
+- [ ] **PERF-05**: Total homepage < 500KB, JS < 80KB, CSS < 50KB, Fonts < 150KB
+- [ ] **PERF-06**: Sub-100ms TTFB on Cloudflare Pages
+- [ ] **PERF-07**: All images optimized (WebP/AVIF via Astro Image component, lazy loading below fold)
+
+### Visual Polish
+
+- [ ] **VISL-01**: Professional color palette with Redbird red accent against greens, whites, dark grays
+- [ ] **VISL-02**: Scroll-triggered fade-in/slide-up animations via CSS + Intersection Observer
+- [ ] **VISL-03**: Subtle hover effects on buttons, service cards, and interactive elements
+- [ ] **VISL-04**: Dark mode support via Tailwind dark mode classes
+
+### Voice Assistant
+
+- [ ] **VAPI-01**: VAPI widget (Vivian) integrated as floating button using @vapi-ai/web 2.5.2
+- [ ] **VAPI-02**: Widget rendered via client:only="react" (never SSR)
+- [ ] **VAPI-03**: Microphone permission handling with graceful error states
+- [ ] **VAPI-04**: CSP headers configured with unsafe-eval for VAPI SDK
+
+### Deployment
+
+- [ ] **DEPL-01**: Deployed to Cloudflare Pages free tier with output: 'static'
+- [ ] **DEPL-02**: Node.js 22 configured in Cloudflare Pages build environment
+- [ ] **DEPL-03**: Custom domain configured (redbirdlawnservice.com or similar)
+- [ ] **DEPL-04**: Cloudflare Auto Minify disabled (conflicts with Astro's own minification)
+
+## v2 Requirements
+
+### Content Expansion
+
+- **V2-CONT-01**: Before/after photo gallery with neighborhood labels
+- **V2-CONT-02**: FAQ section (5-10 questions) for long-tail search capture
+- **V2-CONT-03**: Service area city-specific landing pages (multi-page architecture)
+- **V2-CONT-04**: Blog for content marketing and SEO authority building
+
+### Analytics
+
+- **V2-ANLYT-01**: Cloudflare Analytics integration (cookieless)
+- **V2-ANLYT-02**: Google Search Console verification and sitemap submission
+- **V2-ANLYT-03**: Conversion tracking on form submissions
+
+## Out of Scope
+
+| Feature | Reason |
+|---------|--------|
+| Online booking / scheduling | Requires backend; Alberto handles scheduling offline via GHL |
+| Pricing pages | Local pricing varies by property; competitors don't show prices either |
+| Customer login / portal | Brochure lead-gen site; no returning user needs |
+| Stripe / payments | No transactions on lead-gen site |
+| Live chat (non-AI) | Requires Alberto online; Vivian (VAPI) replaces this |
+| Stock photography | Destroys trust; real content only |
+| Video background / hero video | Kills performance; violates 500KB page budget |
+| Newsletter / email capture | B2C local service; GHL handles nurture |
+| Social media feed embeds | Third-party JS requests; performance penalty |
+| Google Maps embed | Adds 300-500KB; hurts Core Web Vitals |
+| Framer Motion / GSAP | Violates 80KB JS budget |
+| Cookie consent banner | Static site with no analytics cookies; not required |
+| Next.js | Overkill for content site; Astro zero-JS default is faster |
+| Vercel hosting | Cloudflare Pages chosen for free unlimited bandwidth + existing DNS |
+
+## Traceability
+
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| *(populated during roadmap creation)* | | |
+
+**Coverage:**
+- v1 requirements: 35 total
+- Mapped to phases: 0 (pending roadmap)
+- Unmapped: 35
+
+---
+*Requirements defined: 2026-04-05*
+*Last updated: 2026-04-05 after initial definition*
