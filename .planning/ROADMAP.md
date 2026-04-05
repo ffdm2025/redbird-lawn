@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Foundation** - Repo scaffold, version-pinned deps, Tailwind 4, self-hosted fonts, canonical NAP, Cloudflare Pages build config
 - [ ] **Phase 2: Layout Shell + SEO** - BaseHead, Layout, JSON-LD schema, meta tags, sitemap, robots.txt, semantic HTML structure
-- [ ] **Phase 3: Static Content + Visual** - All Astro content sections (Hero through Footer), conversion elements, color palette, scroll animations
+- [x] **Phase 3: Static Content + Visual** - All Astro content sections (Hero through Footer), conversion elements, color palette, scroll animations (completed 2026-04-05)
 - [ ] **Phase 4: React Islands + Integrations** - MobileNav, ContactForm → GHL webhook, VAPIWidget with Vivian, CSP headers
 - [ ] **Phase 5: QA + Launch** - Lighthouse audit 95+, bundle verification, image optimization, custom domain, production deploy
 
@@ -68,7 +68,7 @@ Plans:
 Plans:
 - [x] 03-01-PLAN.md — Visual design foundation: @theme color tokens, animation CSS, SectionWrapper, IntersectionObserver
 - [x] 03-02-PLAN.md — Above-fold sections: Header (sticky + click-to-call), Hero (H1 + CTA), TrustBar
-- [ ] 03-03-PLAN.md — Content sections + final composition: Services, About, Testimonials, Footer, index.astro wired
+- [x] 03-03-PLAN.md — Content sections + final composition: Services, About, Testimonials, Footer, index.astro wired
 
 ### Phase 4: React Islands + Integrations
 **Goal**: A visitor can submit a quote request form (lead delivered to GHL), navigate the site on mobile via the hamburger drawer, and optionally speak with Vivian the AI assistant — all three React islands work without crashing the static build
@@ -103,6 +103,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/3 | In Progress|  |
 | 2. Layout Shell + SEO | 1/2 | In Progress|  |
-| 3. Static Content + Visual | 2/3 | In Progress|  |
+| 3. Static Content + Visual | 3/3 | Complete   | 2026-04-05 |
 | 4. React Islands + Integrations | 0/TBD | Not started | - |
 | 5. QA + Launch | 0/TBD | Not started | - |
