@@ -1,0 +1,99 @@
+---
+// src/components/astro/Services.astro
+// 4-card service grid — Weekly Mowing, Trimming, Mulch & Bed Maintenance, Seasonal Cleanups
+// Detailed bullet lists are a competitor gap (CONTEXT.md) — never vague descriptions
+// H2 for section heading (SEO-04), H3 inside ServiceCard for each service name
+import ServiceCard from './ServiceCard.astro';
+
+// Inline SVG icons — zero JS, no lucide-react runtime needed in Astro static components
+const lawnMowerIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"/><path d="M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9"/><path d="M3 12c0 1.66.45 3.21 1.23 4.55"/><circle cx="12" cy="19" r="2"/><circle cx="5" cy="19" r="2"/><path d="M7 19h3"/></svg>`;
+
+const trimmerIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>`;
+
+const mulchIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 12 2 2"/><path d="m12 12 10 10"/><path d="M12 12V2"/><path d="M12 12h10"/></svg>`;
+
+const seasonalIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8C8 10 5.9 16.17 3.82 19.8"/><path d="M9.04 14.19 8 16 4 18"/><path d="m7 20 2-1.5"/><path d="M9.04 14.19C10.11 12.28 13.4 10.14 17 8"/><path d="M12 6C9 6 6 8 5 11"/><path d="M17 8c1.45-.66 2.45-1 3-1 0 1-1.5 4.5-5 6"/><path d="M2 21c3.2-4.8 6-8 10-9"/></svg>`;
+
+const services = [
+  {
+    title: "Weekly Mowing",
+    description: "Consistent, professional mowing on a schedule that keeps your lawn looking its best all season long.",
+    includes: [
+      "Mow to optimal height for grass type",
+      "Edge along driveways, walkways & beds",
+      "Blow clippings off hard surfaces",
+      "Bag or mulch clippings (your preference)",
+      "Visual inspection for issues",
+    ],
+    icon: lawnMowerIcon,
+  },
+  {
+    title: "Trimming & Edging",
+    description: "Sharp, clean lines around every obstacle — fence lines, trees, flower beds, and tight corners.",
+    includes: [
+      "String trim all fence lines & tree rings",
+      "Edge all hard-surface borders",
+      "Trim around mailboxes, A/C units, posts",
+      "Clean debris from all trimmed areas",
+      "Available as add-on or standalone service",
+    ],
+    icon: trimmerIcon,
+  },
+  {
+    title: "Mulch & Bed Maintenance",
+    description: "Fresh mulch and clean beds boost curb appeal and protect your plants through summer heat.",
+    includes: [
+      "Pull weeds from all flower beds",
+      "Re-edge bed borders for clean lines",
+      "Install fresh mulch (2–3 inch depth)",
+      "Trim low-hanging shrub branches",
+      "Haul away all debris",
+    ],
+    icon: mulchIcon,
+  },
+  {
+    title: "Seasonal Cleanups",
+    description: "Spring and fall cleanups to get your lawn ready for the growing season — or put it to bed for winter.",
+    includes: [
+      "Leaf removal from lawn & beds",
+      "Dethatch & aerate compacted areas",
+      "Final mow of the season",
+      "Blow out all gutters & downspouts",
+      "Debris and branch haul-away",
+    ],
+    icon: seasonalIcon,
+  },
+];
+---
+<section
+  id="services"
+  class="py-16 sm:py-20 px-4 bg-gray-50 dark:bg-gray-900"
+  aria-labelledby="services-heading"
+>
+  <div class="max-w-5xl mx-auto">
+    <!-- Section header -->
+    <div class="text-center mb-12" data-animate>
+      <h2
+        id="services-heading"
+        class="font-heading font-bold text-3xl sm:text-4xl text-forest-green dark:text-light-green mb-4"
+      >
+        Services We Offer
+      </h2>
+      <p class="text-gray-600 dark:text-gray-300 text-lg max-w-xl mx-auto">
+        Every job includes the details. No vague promises — here's exactly what we do.
+      </p>
+    </div>
+
+    <!-- 4-card grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {services.map((service, i) => (
+        <ServiceCard
+          title={service.title}
+          description={service.description}
+          includes={service.includes}
+          icon={service.icon}
+        />
+      ))}
+    </div>
+  </div>
+</section>

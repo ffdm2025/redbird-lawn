@@ -1,0 +1,39 @@
+---
+// src/components/astro/ServiceCard.astro
+// Single service card — icon + title + description + bullet list of what's included
+// Card hover: border glow + translateY -2px (VISL-03, locked decision CONTEXT.md)
+interface Props {
+  title: string;
+  description: string;
+  includes: string[];
+  icon: string; // inline SVG string — DO NOT use lucide-react in Astro components (adds React runtime)
+}
+const { title, description, includes, icon } = Astro.props;
+---
+<article
+  class="rounded-xl border border-gray-200 dark:border-gray-700 p-6 bg-white dark:bg-gray-800 hover:border-redbird-red hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200 cursor-default"
+  data-animate
+>
+  <!-- Icon -->
+  <div class="w-12 h-12 rounded-lg bg-forest-green/10 dark:bg-forest-green/20 flex items-center justify-center mb-4 text-forest-green dark:text-light-green" aria-hidden="true" set:html={icon}></div>
+
+  <!-- Service name — H3 (SEO-04: H2 is section heading, H3 is per-service) -->
+  <h3 class="font-heading font-semibold text-xl text-forest-green dark:text-light-green mb-2">
+    {title}
+  </h3>
+
+  <!-- Short description -->
+  <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 leading-relaxed">
+    {description}
+  </p>
+
+  <!-- What's included bullet list — competitor differentiator (CONTEXT.md) -->
+  <ul class="space-y-1.5" aria-label={`What's included with ${title}`}>
+    {includes.map((item) => (
+      <li class="flex items-start gap-2 text-sm text-gray-500 dark:text-gray-400">
+        <span class="text-redbird-red mt-0.5 shrink-0 font-bold" aria-hidden="true">✓</span>
+        {item}
+      </li>
+    ))}
+  </ul>
+</article>
