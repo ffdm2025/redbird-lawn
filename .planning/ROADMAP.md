@@ -50,7 +50,7 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — SEO component layer: schema.ts, BaseHead.astro, JsonLd.astro, Layout.astro update
+- [x] 02-01-PLAN.md — SEO component layer: schema.ts, BaseHead.astro, JsonLd.astro, Layout.astro update
 - [ ] 02-02-PLAN.md — Static files + sitemap verification: robots.txt, og-image.png, @astrojs/sitemap build check
 
 ### Phase 3: Static Content + Visual
@@ -98,7 +98,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/3 | In Progress|  |
-| 2. Layout Shell + SEO | 0/2 | Not started | - |
+| 2. Layout Shell + SEO | 1/2 | In Progress|  |
 | 3. Static Content + Visual | 0/TBD | Not started | - |
 | 4. React Islands + Integrations | 0/TBD | Not started | - |
 | 5. QA + Launch | 0/TBD | Not started | - |

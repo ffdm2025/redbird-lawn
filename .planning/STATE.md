@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: "Checkpoint: 01-03 Task 2 — Deploy to Cloudflare Pages (human-verify)"
-last_updated: "2026-04-05T21:08:05.264Z"
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-04-05T21:25:14.449Z"
 last_activity: 2026-04-05
 progress:
   total_phases: 5
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
+  total_plans: 5
+  completed_plans: 4
   percent: 0
 ---
 
@@ -21,12 +21,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-05)
 
 **Core value:** Rank for "lawn care services near Wentzville, MO," load under 100ms TTFB, and convert residential homeowners into quote requests
-**Current focus:** Phase 01 — foundation
+**Current focus:** Phase 02 — layout-shell-seo
 
 ## Current Position
 
-Phase: 2
-Plan: Not started
+Phase: 02 (layout-shell-seo) — EXECUTING
+Plan: 2 of 2
 Status: Ready to execute
 Last activity: 2026-04-05
 
@@ -54,6 +54,7 @@ Progress: [░░░░░░░░░░] 0%
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 11 | 2 tasks | 9 files |
 | Phase 01-foundation P02 | 18 | 2 tasks | 4 files |
+| Phase 02-layout-shell-seo P01 | 8 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -74,6 +75,9 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: @variant dark (&:is(.dark *)) for dark mode — no tailwind.config.js needed in Tailwind 4
 - [Phase 01-foundation]: No Cloudflare Pages adapter needed for output: static — adapter is SSR-only
 - [Phase 01-foundation]: Auto Minify HTML disabled on Cloudflare — prevents corruption of Astro React hydration payload
+- [Phase 02-layout-shell-seo]: set:html is mandatory on JSON-LD script tag — Astro escapes braces without it, breaking Google structured data parser
+- [Phase 02-layout-shell-seo]: Layout.astro title/description are optional with SEO-optimized defaults so no page can ship without meta tags
+- [Phase 02-layout-shell-seo]: buildLocalBusinessSchema() imports exclusively from constants.ts — zero hardcoded business data in SEO layer
 
 ### Pending Todos
 
@@ -88,6 +92,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-05T20:57:25.246Z
-Stopped at: Checkpoint: 01-03 Task 2 — Deploy to Cloudflare Pages (human-verify)
+Last session: 2026-04-05T21:25:14.441Z
+Stopped at: Completed 02-01-PLAN.md
 Resume file: None
