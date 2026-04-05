@@ -1,14 +1,30 @@
 ---
+// src/layouts/Layout.astro
+// BaseHead replaces the bare <title> + meta charset/viewport that were here before.
+// Font tags remain exactly as-is — do not move or reorder them.
+// JSON-LD schema is built once here and passed to JsonLd component.
 import { Font } from 'astro:assets';
 import '../styles/global.css';
-interface Props { title: string; }
-const { title } = Astro.props;
+import BaseHead from '../components/seo/BaseHead.astro';
+import JsonLd from '../components/seo/JsonLd.astro';
+import { buildLocalBusinessSchema } from '../lib/schema';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Redbird Lawn Care Service | Top Rated Mowing in Wentzville, MO",
+  description = "Expert lawn care services near Wentzville, MO 63385. Mowing, trimming & cleanups. Serving O'Fallon, Lake Saint Louis, Troy. Get a free quote!"
+} = Astro.props;
+
+const schema = buildLocalBusinessSchema();
 ---
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
+    <BaseHead title={title} description={description} />
+    <JsonLd schema={schema} />
     <Font cssVariable="--font-heading" preload />
     <Font cssVariable="--font-body" />
   </head>
