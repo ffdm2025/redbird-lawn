@@ -115,10 +115,10 @@
 - [x] **BLOG-05**: Article — Why Sharp Mower Blades Matter More Than You Think (blade sharpness)
 - [x] **BLOG-06**: Article — Why We Alternate Our Mowing Pattern Every Week (mowing patterns)
 - [x] **BLOG-07**: Article — What's the Right Mowing Height for Missouri Lawns? (lawn height)
-- [ ] **BLOG-08**: Article — Why You Should Never Mow Wet Grass (wet mowing risks)
-- [ ] **BLOG-09**: Article — The Art of a Clean Edge: Why Edging Makes Your Lawn Look Professional (edging)
-- [ ] **BLOG-10**: Article — First Time Mowing New Sod? Here's What Alberto Does (new sod care + trimming)
-- [ ] **BLOG-11**: Article — How to Water Your Lawn the Right Way in Missouri (watering guide)
+- [x] **BLOG-08**: Article — Why You Should Never Mow Wet Grass (wet mowing risks)
+- [x] **BLOG-09**: Article — The Art of a Clean Edge: Why Edging Makes Your Lawn Look Professional (edging)
+- [x] **BLOG-10**: Article — First Time Mowing New Sod? Here's What Alberto Does (new sod care + trimming)
+- [x] **BLOG-11**: Article — How to Water Your Lawn the Right Way in Missouri (watering guide)
 
 All articles: 8th-grade reading level, first-person Alberto voice, 2-3 citations to reputable sources (university extensions, USDA, turf research), targeting local Wentzville/St. Charles County keywords.
 
