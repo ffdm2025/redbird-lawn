@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* Font family CSS custom properties — values injected by Astro Fonts API at build time */
 /* CRITICAL: Do NOT add --font-heading or --font-body to @theme — Astro Fonts API injects these */

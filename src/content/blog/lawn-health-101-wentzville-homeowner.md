@@ -1,8 +1,8 @@
 ---
 title: "Lawn Health 101: What Every Wentzville Homeowner Should Know"
-date: 2026-03-17
+date: 2026-02-17
 author: "Alberto Murillo"
-excerpt: "A healthy lawn isn't luck — it's a few consistent habits done right. Here's what I've learned after years of caring for lawns in Wentzville and St. Charles County."
+excerpt: "A healthy lawn isn't luck. It's a few consistent habits done right. Here's what I've learned after years of caring for lawns in Wentzville and St. Charles County."
 tags: ["lawn health", "lawn care basics", "Wentzville"]
 ---
 
@@ -12,11 +12,11 @@ Fair enough. But getting there takes more than just mowing. Let me break down th
 
 ## Healthy Grass Starts Underground
 
-The root system is everything. Grass with deep roots handles drought better, fights off weeds more effectively, and recovers faster after stress. The problem is most people focus on what they can see above the soil — color, length, uniformity. The stuff underneath matters just as much.
+The root system is everything. Grass with deep roots handles drought better, fights off weeds more effectively, and recovers faster after stress. The problem is most people focus on what they can see above the soil: color, length, uniformity. The stuff underneath matters just as much.
 
 Deep roots come from a few key habits:
-- Watering deeply but infrequently (more on this later)
-- Mowing at the correct height for your grass type
+- [Watering deeply but infrequently](/blog/how-to-water-lawn-right-way-missouri)
+- [Mowing at the correct height](/blog/right-mowing-height-missouri-lawns) for your grass type
 - Aerating once a year to break up compacted soil
 
 The [University of Missouri Extension's lawn care guide](https://extension.missouri.edu/publications/g6700) goes into depth on soil preparation and how it connects to root development. It's worth reading if you want to understand the "why" behind these practices.
@@ -26,13 +26,13 @@ The [University of Missouri Extension's lawn care guide](https://extension.misso
 Everything in lawn care comes back to three things:
 
 **1. Mowing**
-Height matters. Missouri cool-season grasses (tall fescue being the most common in Wentzville) should be kept at 3 to 4 inches during the growing season. Shorter than that and you're stressing the grass — it gets hot, the roots suffer, and weeds see their opening.
+Height matters. Missouri cool-season grasses (tall fescue being the most common in Wentzville) should be kept at 3 to 4 inches during the growing season. Shorter than that and you're stressing the grass. It gets hot, the roots suffer, and weeds see their opening. I wrote more about [how often you should actually mow](/blog/how-often-mow-lawn-wentzville-mo) in a separate post.
 
 **2. Watering**
-One inch of water per week is the standard benchmark. Whether that comes from rain or your irrigation system, that's the target. But how you apply it matters. One deep watering session is far better than four shallow ones. Deep water = deep roots.
+One inch of water per week is the standard benchmark. Whether that comes from rain or your irrigation system, that's the target. But how you apply it matters. One deep watering session is far better than four shallow ones. Deep water means deep roots.
 
 **3. Feeding (Fertilizing)**
-Cool-season grass in Missouri benefits most from fertilizer in the fall — not spring. A fall application helps the lawn store nutrients through winter and come back stronger in March. Spring fertilizing is fine in moderation, but over-feeding in spring pushes too much top growth at the expense of roots.
+Cool-season grass in Missouri benefits most from fertilizer in the fall, not spring. A fall application helps the lawn store nutrients through winter and come back stronger in March. Spring fertilizing is fine in moderation, but over-feeding in spring pushes too much top growth at the expense of roots.
 
 The [USDA Natural Resources Conservation Service](https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils) has good resources on soil health if you want to go deeper on why soil nutrients affect grass growth.
 
@@ -52,13 +52,13 @@ Each of these tells a story. Yellow patches in summer often mean drought stress 
 Here's how I think about the year for a typical Wentzville lawn:
 
 - **March:** First mow of the season. Clean up winter debris.
-- **April–May:** Peak growth season. Keep up with mowing frequency.
+- **April and May:** Peak growth season. Keep up with mowing frequency.
 - **June:** Watch for heat stress. Raise mowing height slightly.
-- **July–August:** Ease back on fertilizer. Water if needed.
+- **July and August:** Ease back on fertilizer. Water if needed.
 - **September:** Overseed thin areas if needed. Prime fertilizer window opens.
 - **October:** Best time to apply fall fertilizer. Aerate if you haven't this year.
 - **November:** Final mow. Lower height slightly to discourage snow mold.
-- **December–February:** Rest. Let the lawn be.
+- **December through February:** Rest. Let the lawn be.
 
 ## You Don't Need to Be a Lawn Expert
 
@@ -71,5 +71,5 @@ Need help? Call Redbird at (314) 497-6152 or [get a free quote](https://redbirdl
 ---
 
 **Sources:**
-- University of Missouri Extension — [Cool-Season Lawn Calendar (G6700)](https://extension.missouri.edu/publications/g6700)
-- USDA Natural Resources Conservation Service — [Soil Health](https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils)
+- University of Missouri Extension, [Cool-Season Lawn Calendar (G6700)](https://extension.missouri.edu/publications/g6700)
+- USDA Natural Resources Conservation Service, [Soil Health](https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils)

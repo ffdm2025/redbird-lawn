@@ -1,6 +1,6 @@
 ---
 title: "What's the Right Mowing Height for Missouri Lawns?"
-date: 2026-04-07
+date: 2026-03-10
 author: "Alberto Murillo"
 excerpt: "Cut too short and you stress the grass. Cut too tall and you invite problems. Here's how I set mowing height for cool-season lawns in Wentzville and why it changes with the seasons."
 tags: ["mowing", "lawn care basics", "Missouri", "Wentzville"]
@@ -12,11 +12,11 @@ Let me explain what's actually happening when you mow, and why height is one of 
 
 ## The Science Behind Mowing Height
 
-Grass blades are the lawn's solar panels. They capture sunlight and use it to make food through photosynthesis — food that feeds the roots and keeps the whole plant healthy. When you cut the grass short, you reduce that solar collection area. The plant has to work harder to feed itself, which means the roots suffer.
+Grass blades are the lawn's solar panels. They capture sunlight and use it to make food through photosynthesis, food that feeds the roots and keeps the whole plant healthy. When you cut the grass short, you reduce that solar collection area. The plant has to work harder to feed itself, which means the roots suffer.
 
 Short grass also means shallow roots. And shallow roots mean the lawn dries out faster in summer, struggles against drought, and becomes vulnerable to disease and weeds.
 
-The [University of Missouri Extension recommends](https://extension.missouri.edu/publications/g6700) that cool-season grasses like tall fescue — the most common lawn grass in St. Charles County — be maintained at **3 to 4 inches** during the growing season. That's taller than most people are used to.
+The [University of Missouri Extension recommends](https://extension.missouri.edu/publications/g6700) that cool-season grasses like tall fescue, the most common lawn grass in St. Charles County, be maintained at **3 to 4 inches** during the growing season. That's taller than most people are used to.
 
 ## What Grows in Wentzville
 
@@ -28,7 +28,7 @@ Here's how I handle the height for these:
 - **Kentucky bluegrass:** 2.5 to 3 inches in spring and fall; 3 to 3.5 inches in summer
 - **Bermuda grass (less common here):** 1 to 1.5 inches; needs warm-season care approach
 
-The higher summer setting is deliberate. Taller grass shades the soil, keeps roots cooler, and reduces water loss. In an August heat wave in Wentzville, that extra half inch of height can be the difference between a lawn that holds on and one that goes crispy.
+The higher summer setting is deliberate. Taller grass shades the soil, keeps roots cooler, and reduces water loss. In an August heat wave in Wentzville, that extra half inch of height can be the difference between a lawn that holds on and one that goes crispy. This connects directly to [how you water your lawn](/blog/how-to-water-lawn-right-way-missouri), because taller grass retains soil moisture longer.
 
 ## The Scalping Problem
 
@@ -38,7 +38,7 @@ Scalping often happens in two situations:
 1. The lawn got too long between mows, and the homeowner is trying to catch up
 2. The mower deck is set too low
 
-The fix for the first problem is consistent mowing frequency. The fix for the second is raising the deck.
+The fix for the first problem is [consistent mowing frequency](/blog/how-often-mow-lawn-wentzville-mo). The fix for the second is raising the deck.
 
 The [Ohio State University Extension turfgrass program](https://ohioline.osu.edu/factsheet/HYG-4020) has a useful breakdown of scalping damage and how to avoid it. The research is consistent: maintain proper height, mow frequently enough to follow the one-third rule, and your lawn will stay healthy.
 
@@ -48,23 +48,23 @@ Here's how I manage mowing height across the year for Wentzville lawns:
 
 | Season | Target Height | Reason |
 |--------|---------------|--------|
-| Early spring | 2.5–3 in | Encourage recovery from winter |
-| Spring/Fall | 3–3.5 in | Peak growing season, good root support |
-| Summer | 3.5–4 in | Heat and drought protection |
-| Late fall (final cut) | 2.5–3 in | Discourage snow mold over winter |
+| Early spring | 2.5 to 3 in | Encourage recovery from winter |
+| Spring/Fall | 3 to 3.5 in | Peak growing season, good root support |
+| Summer | 3.5 to 4 in | Heat and drought protection |
+| Late fall (final cut) | 2.5 to 3 in | Discourage snow mold over winter |
 
-That final fall cut is one people often skip. I prefer to bring cool-season grass down to about 2.5 to 3 inches before the first hard frost. Long grass going into winter can mat down under snow and create conditions for snow mold — a fungal disease that shows up in early spring as gray or pink patches.
+That final fall cut is one people often skip. I prefer to bring cool-season grass down to about 2.5 to 3 inches before the first hard frost. Long grass going into winter can mat down under snow and create conditions for snow mold, a fungal disease that shows up in early spring as gray or pink patches.
 
 ## What Happens When You Let the Pros Handle It
 
 When I'm managing a lawn in Wentzville, I'm making a height judgment on every visit. Is the lawn growing fast or slow? Is it stressed from heat? What does the soil look like? What's the forecast?
 
-That's the advantage of consistent professional care — the height is always appropriate for the conditions, not just set once and forgotten.
+That's the advantage of consistent professional care. The height is always appropriate for the conditions, not just set once and forgotten. I also make sure we're using [sharp blades](/blog/why-sharp-mower-blades-matter) so every cut is clean at whatever height we're running.
 
 Need help? Call Redbird at (314) 497-6152 or [get a free quote](https://redbirdlawnservice.com/#contact). We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.
 
 ---
 
 **Sources:**
-- University of Missouri Extension — [Cool-Season Lawn Calendar (G6700)](https://extension.missouri.edu/publications/g6700)
-- Ohio State University Extension — [Mowing Your Lawn (HYG-4020)](https://ohioline.osu.edu/factsheet/HYG-4020)
+- University of Missouri Extension, [Cool-Season Lawn Calendar (G6700)](https://extension.missouri.edu/publications/g6700)
+- Ohio State University Extension, [Mowing Your Lawn (HYG-4020)](https://ohioline.osu.edu/factsheet/HYG-4020)
