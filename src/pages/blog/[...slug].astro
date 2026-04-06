@@ -1,0 +1,92 @@
+---
+// src/pages/blog/[...slug].astro
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+import { buildArticleSchema } from '../../lib/schema';
+import { NAP } from '../../lib/constants';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const articleSchema = buildArticleSchema({
+  title: entry.data.title,
+  excerpt: entry.data.excerpt,
+  slug: entry.id,
+  datePublished: entry.data.date,
+  authorName: entry.data.author,
+});
+
+const ogTitle = `${entry.data.title} | Redbird Lawn Care`;
+---
+
+<Layout title={ogTitle} description={entry.data.excerpt}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  </Fragment>
+
+  <article class="max-w-2xl mx-auto px-4 py-16">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-400 dark:text-gray-500 mb-8" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-forest-green dark:hover:text-light-green transition-colors">Home</a>
+      <span class="mx-2">›</span>
+      <a href="/blog" class="hover:text-forest-green dark:hover:text-light-green transition-colors">Blog</a>
+      <span class="mx-2">›</span>
+      <span class="text-gray-600 dark:text-gray-300">{entry.data.title}</span>
+    </nav>
+
+    <!-- Post header -->
+    <header class="mb-10">
+      {entry.data.tags && entry.data.tags.length > 0 && (
+        <div class="flex gap-2 mb-4 flex-wrap">
+          {entry.data.tags.map((tag: string) => (
+            <span class="text-xs font-semibold uppercase tracking-wide text-redbird-red bg-red-50 dark:bg-red-950 px-2 py-1 rounded">
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+      <h1 class="font-heading font-bold text-3xl md:text-4xl text-gray-900 dark:text-gray-50 leading-tight mb-4">
+        {entry.data.title}
+      </h1>
+      <div class="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400">
+        <span>By <strong class="text-gray-700 dark:text-gray-300">{entry.data.author}</strong></span>
+        <span>·</span>
+        <time datetime={entry.data.date.toISOString()}>
+          {entry.data.date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+        </time>
+      </div>
+    </header>
+
+    <!-- Article body — prose styling via Tailwind CSS -->
+    <div class="prose prose-gray dark:prose-invert prose-headings:font-heading prose-headings:font-semibold prose-a:text-forest-green dark:prose-a:text-light-green prose-a:no-underline hover:prose-a:underline max-w-none">
+      <Content />
+    </div>
+
+    <!-- CTA footer -->
+    <aside class="mt-16 rounded-xl bg-forest-green dark:bg-forest-green/80 p-8 text-white text-center">
+      <p class="font-heading font-bold text-xl mb-2">Ready for a Lawn That Turns Heads?</p>
+      <p class="text-green-100 mb-6 text-sm">Call Redbird Lawn Care for a free quote. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.</p>
+      <a
+        href={NAP.phoneHref}
+        class="inline-flex items-center gap-2 bg-redbird-red hover:bg-[#a01830] text-white font-semibold px-6 py-3 rounded-full transition-colors"
+      >
+        Call {NAP.phone}
+      </a>
+    </aside>
+
+    <!-- Back link -->
+    <div class="mt-10 text-center">
+      <a href="/blog" class="text-sm text-gray-500 dark:text-gray-400 hover:text-forest-green dark:hover:text-light-green transition-colors">
+        ← Back to all articles
+      </a>
+    </div>
+  </article>
+</Layout>
