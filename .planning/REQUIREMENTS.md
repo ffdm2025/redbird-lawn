@@ -106,6 +106,22 @@
 | Next.js | Overkill for content site; Astro zero-JS default is faster |
 | Vercel hosting | Cloudflare Pages chosen for free unlimited bandwidth + existing DNS |
 
+### Blog
+
+- [ ] **BLOG-01**: Blog infrastructure — Astro content collection, blog index page at /blog, individual post layout at /blog/{slug}
+- [ ] **BLOG-02**: Navigation updated with "Blog" link on desktop and mobile
+- [ ] **BLOG-03**: Article — How Often Should You Mow Your Lawn in Wentzville, MO? (mowing frequency)
+- [ ] **BLOG-04**: Article — Lawn Health 101: What Every Wentzville Homeowner Should Know (lawn health basics)
+- [ ] **BLOG-05**: Article — Why Sharp Mower Blades Matter More Than You Think (blade sharpness)
+- [ ] **BLOG-06**: Article — Why We Alternate Our Mowing Pattern Every Week (mowing patterns)
+- [ ] **BLOG-07**: Article — What's the Right Mowing Height for Missouri Lawns? (lawn height)
+- [ ] **BLOG-08**: Article — Why You Should Never Mow Wet Grass (wet mowing risks)
+- [ ] **BLOG-09**: Article — The Art of a Clean Edge: Why Edging Makes Your Lawn Look Professional (edging)
+- [ ] **BLOG-10**: Article — First Time Mowing New Sod? Here's What Alberto Does (new sod care + trimming)
+- [ ] **BLOG-11**: Article — How to Water Your Lawn the Right Way in Missouri (watering guide)
+
+All articles: 8th-grade reading level, first-person Alberto voice, 2-3 citations to reputable sources (university extensions, USDA, turf research), targeting local Wentzville/St. Charles County keywords.
+
 ## Traceability
 
 | Requirement | Phase | Status |
