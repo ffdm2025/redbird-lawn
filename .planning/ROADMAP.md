@@ -114,20 +114,21 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 3. Static Content + Visual | 3/3 | Complete   | 2026-04-05 |
 | 4. React Islands + Integrations | 2/3 | In Progress|  |
 | 5. QA + Launch | 1/2 | In Progress|  |
-| 6. Blog Content | 0/TBD | Not started | - |
+| 6. Blog Content | 0/3 | Not started | - |
 
 ### Phase 6: Blog Content
 **Goal**: A blog section with 9 SEO-optimized articles written in Alberto's first-person voice at 8th-grade readability, targeting local lawn care keywords in Wentzville MO. Each article includes citations to reputable sources (university extension offices, turf science research). Blog infrastructure uses Astro content collections with a blog index page and individual post layouts.
 **Depends on**: Phase 3
-**Requirements**: BLOG-01, BLOG-02, BLOG-03, BLOG-04, BLOG-05, BLOG-06, BLOG-07, BLOG-08, BLOG-09, BLOG-10
+**Requirements**: BLOG-01, BLOG-02, BLOG-03, BLOG-04, BLOG-05, BLOG-06, BLOG-07, BLOG-08, BLOG-09, BLOG-10, BLOG-11
 **Success Criteria** (what must be TRUE):
   1. Blog index page at /blog lists all 9 articles with titles, dates, and excerpts
   2. Each article has a unique URL at /blog/{slug} with proper meta tags and JSON-LD Article schema
   3. All articles are written at 8th-grade reading level in Alberto's first-person voice
   4. Each article contains 2-3 citations to reputable sources (university extensions, USDA, turf research)
   5. Navigation includes a "Blog" link visible on desktop and mobile
-**Plans**: TBD
-**UI hint**: yes
+**Plans**: 3 plans
 
 Plans:
-- [ ] TBD (run /gsd:plan-phase 6 to break down)
+- [ ] 06-01-PLAN.md — Blog infrastructure: content collection schema, index page, post layout, Article JSON-LD, nav updates
+- [ ] 06-02-PLAN.md — Articles 1-5: mowing frequency, lawn health 101, sharp blades, mowing pattern, mowing height
+- [ ] 06-03-PLAN.md — Articles 6-9: wet grass, edging, new sod, watering guide (parallel with Plan 02)
