@@ -28,6 +28,7 @@ const schema = buildLocalBusinessSchema();
     <JsonLd schema={schema} />
     <Font cssVariable="--font-heading" preload />
     <Font cssVariable="--font-body" />
+    <slot name="head" />
   </head>
   <body>
     <slot />

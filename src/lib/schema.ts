@@ -43,3 +43,38 @@ export function buildLocalBusinessSchema() {
     ]
   } as const;
 }
+
+export interface ArticleSchemaProps {
+  title: string;
+  excerpt: string;
+  slug: string;
+  datePublished: Date;
+  dateModified?: Date;
+  authorName?: string;
+}
+
+export function buildArticleSchema(props: ArticleSchemaProps) {
+  const { title, excerpt, slug, datePublished, dateModified, authorName = 'Alberto Murillo' } = props;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": excerpt,
+    "url": `${SITE_URL}/blog/${slug}`,
+    "datePublished": datePublished.toISOString(),
+    "dateModified": (dateModified ?? datePublished).toISOString(),
+    "author": {
+      "@type": "Person",
+      "name": authorName,
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": NAP.name,
+      "url": SITE_URL,
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/blog/${slug}`,
+    },
+  } as const;
+}
