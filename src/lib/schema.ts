@@ -66,6 +66,19 @@ export function buildArticleSchema(props: ArticleSchemaProps) {
     "author": {
       "@type": "Person",
       "name": authorName,
+      "jobTitle": "Owner",
+      "worksFor": {
+        "@type": "LocalBusiness",
+        "@id": `${SITE_URL}/#business`,
+        "name": NAP.name,
+      },
+      "knowsAbout": [
+        "lawn care",
+        "lawn mowing",
+        "turfgrass management",
+        "residential landscaping",
+        "cool-season grass maintenance"
+      ],
     },
     "publisher": {
       "@type": "Organization",
@@ -76,5 +89,97 @@ export function buildArticleSchema(props: ArticleSchemaProps) {
       "@type": "WebPage",
       "@id": `${SITE_URL}/blog/${slug}`,
     },
+    "about": {
+      "@type": "Thing",
+      "name": "Lawn Care",
+      "sameAs": "https://en.wikipedia.org/wiki/Lawn"
+    },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".prose h2", ".prose p:first-of-type"]
+    },
   } as const;
+}
+
+export function buildFAQSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does lawn mowing cost in Wentzville?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every yard is different. Lot size, grass type, and frequency all factor into the price. Redbird Lawn Service provides free, no-obligation quotes so you know exactly what to expect before we ever show up. No surprises on your bill."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you require contracts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Redbird Lawn Service believes in earning your business every week, not locking you in. Whether you need weekly service or a one-time cleanup, there is no contract and no cancellation fee."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What areas do you serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Redbird Lawn Service serves residential homes in Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell. If you are in St. Charles County and are unsure whether we cover your neighborhood, call (314) 497-6152 and we will let you know right away."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to provide any equipment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Redbird Lawn Service brings all professional-grade equipment to every job. Mowers, trimmers, edgers, blowers. All you need to do is let us know when to show up."
+        }
+      }
+    ]
+  } as const;
+}
+
+export function buildServiceSchema() {
+  const services = [
+    {
+      name: "Weekly Lawn Mowing in Wentzville, MO",
+      description: "Professional weekly mowing service including mow to optimal height for grass type, edge along driveways, walkways, and beds, blow clippings off hard surfaces, and visual inspection for lawn issues.",
+    },
+    {
+      name: "Trimming and Edging Service in Wentzville, MO",
+      description: "Sharp, clean lines around fence lines, trees, flower beds, and tight corners. Includes string trimming, rotary edging along all hard surfaces, and debris cleanup.",
+    },
+    {
+      name: "Mulch and Bed Maintenance in Wentzville, MO",
+      description: "Weed pulling, bed re-edging, fresh mulch installation at 2 to 3 inch depth, shrub trimming, and debris haul-away for residential properties.",
+    },
+    {
+      name: "Seasonal Lawn Cleanup in Wentzville, MO",
+      description: "Spring and fall cleanup services including leaf removal, dethatching, aeration, final mow, gutter blowout, and debris haul-away.",
+    },
+  ];
+
+  return services.map((service) => ({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": service.name,
+    "description": service.description,
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": `${SITE_URL}/#business`,
+      "name": NAP.name,
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Wentzville",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Missouri"
+      }
+    },
+    "serviceType": "Lawn Care",
+  }));
 }

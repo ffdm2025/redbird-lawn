@@ -29,3 +29,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://redbirdlawnservice.com/sitemap-index.xml
+
+# AI-readable site summary
+# https://llmstxt.org/
+Llms-txt: https://redbirdlawnservice.com/llms.txt

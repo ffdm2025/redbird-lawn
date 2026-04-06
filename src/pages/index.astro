@@ -11,8 +11,18 @@ import About from '../components/astro/About.astro';
 import Testimonials from '../components/astro/Testimonials.astro';
 import Footer from '../components/astro/Footer.astro';
 import ContactForm from '../components/react/ContactForm';
+import { buildFAQSchema, buildServiceSchema } from '../lib/schema';
+
+const faqSchema = buildFAQSchema();
+const serviceSchemas = buildServiceSchema();
 ---
 <Layout title="Redbird Lawn Service | Top Rated Mowing in Wentzville, MO">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    {serviceSchemas.map((s) => (
+      <script type="application/ld+json" set:html={JSON.stringify(s)} />
+    ))}
+  </Fragment>
   <Header />
   <TrustBar />
   <main id="main-content">

@@ -1,24 +1,30 @@
 # Redbird Lawn Service
-> Professional residential lawn care in Wentzville, MO. Owner-operated by Alberto Murillo. Serving Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell in St. Charles County.
+
+> Redbird Lawn Service is a fully insured, locally owned residential lawn care company in Wentzville, MO. Owner-operated by Alberto Murillo. Serving Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell in St. Charles County, Missouri.
 
 ## Services
-- [Weekly Mowing](https://redbirdlawnservice.com/#services): Professional mowing, edging, and cleanup on a consistent weekly schedule. Includes mow, edge, blow, and bag clippings.
-- [Trimming & Edging](https://redbirdlawnservice.com/#services): Sharp clean lines around fence lines, trees, flower beds, and tight corners.
-- [Mulch & Bed Maintenance](https://redbirdlawnservice.com/#services): Fresh mulch and clean beds to boost curb appeal and protect plants.
-- [Seasonal Cleanups](https://redbirdlawnservice.com/#services): Spring and fall cleanup services to prepare lawns for the growing season or winter dormancy.
+
+- [Weekly Mowing](https://redbirdlawnservice.com/#services): Professional mowing at optimal height for grass type, edging along driveways, walkways, and beds, blow clippings off hard surfaces, bag or mulch clippings, visual inspection for lawn issues. All equipment included.
+- [Trimming and Edging](https://redbirdlawnservice.com/#services): String trim all fence lines and tree rings, edge all hard-surface borders, trim around mailboxes, A/C units, and posts. Clean debris from all trimmed areas.
+- [Mulch and Bed Maintenance](https://redbirdlawnservice.com/#services): Pull weeds from all flower beds, re-edge bed borders, install fresh mulch at 2 to 3 inch depth, trim low-hanging shrub branches, haul away all debris.
+- [Seasonal Cleanups](https://redbirdlawnservice.com/#services): Spring and fall leaf removal, dethatch and aerate compacted areas, final mow of the season, blow out gutters and downspouts, debris and branch haul-away.
 
 ## Blog
-- [How Often Should You Mow Your Lawn](https://redbirdlawnservice.com/blog/mowing-frequency): Mowing frequency guide for Wentzville, MO lawns based on grass type and season.
-- [Lawn Health 101](https://redbirdlawnservice.com/blog/lawn-health-101): Basic lawn health tips for Missouri homeowners.
-- [Why Sharp Mower Blades Matter](https://redbirdlawnservice.com/blog/sharp-mower-blades): How dull blades damage grass and why sharp blades keep lawns healthy.
-- [Alternating Mowing Patterns](https://redbirdlawnservice.com/blog/alternating-mowing-pattern): Why changing mowing direction prevents ruts and promotes upright growth.
-- [Mowing Height for Missouri Lawns](https://redbirdlawnservice.com/blog/mowing-height-missouri): Recommended mowing heights for cool-season and warm-season grasses in Missouri.
-- [Never Mow Wet Grass](https://redbirdlawnservice.com/blog/never-mow-wet-grass): Why mowing wet grass causes clumping, disease, and uneven cuts.
-- [The Art of Edging](https://redbirdlawnservice.com/blog/edging-guide): How proper edging makes a lawn look professionally maintained.
-- [First Time Mowing New Sod](https://redbirdlawnservice.com/blog/first-mow-new-sod): When and how to mow new sod for the first time without damaging it.
-- [How to Water Your Lawn in Missouri](https://redbirdlawnservice.com/blog/watering-guide-missouri): Watering schedule and depth guide for Missouri lawns.
+
+Practical lawn care advice written by Alberto Murillo for Missouri homeowners.
+
+- [How Often Should You Mow Your Lawn in Wentzville, MO?](https://redbirdlawnservice.com/blog/how-often-mow-lawn-wentzville-mo): Mowing frequency guide based on grass type, season, and growth rate. Cool-season lawns need mowing every 5 to 7 days in spring and fall, every 10 to 14 days in summer.
+- [Lawn Health 101: What Every Wentzville Homeowner Should Know](https://redbirdlawnservice.com/blog/lawn-health-101-wentzville-homeowner): Covers the three fundamentals of lawn health: mowing height, deep watering, and fall fertilization.
+- [Why Sharp Mower Blades Matter More Than You Think](https://redbirdlawnservice.com/blog/why-sharp-mower-blades-matter): Dull blades tear grass instead of cutting it, causing brown tips and opening the door to fungal disease. Sharpen every 20 to 25 hours of use.
+- [Why We Alternate Our Mowing Pattern Every Week](https://redbirdlawnservice.com/blog/why-we-alternate-mowing-pattern): Alternating mowing direction prevents soil compaction, keeps grass standing upright, and creates professional-looking lawn stripes.
+- [What's the Right Mowing Height for Missouri Lawns?](https://redbirdlawnservice.com/blog/right-mowing-height-missouri-lawns): Cool-season grasses like tall fescue should be maintained at 3 to 4 inches during the growing season. Raise height in summer for heat and drought protection.
+- [Why You Should Never Mow Wet Grass](https://redbirdlawnservice.com/blog/why-you-should-never-mow-wet-grass): Wet mowing causes uneven cuts, clumping, soil compaction, ruts, and spreads fungal disease. Wait until grass blades are dry to the touch.
+- [The Art of a Clean Edge](https://redbirdlawnservice.com/blog/art-of-clean-edge-why-edging-matters): How professional edging along sidewalks, driveways, and curbs creates a finished, sharp appearance. Edge weekly during the growing season.
+- [First Time Mowing New Sod](https://redbirdlawnservice.com/blog/first-time-mowing-new-sod-what-alberto-does): Wait until sod passes the tug test before mowing (10 to 21 days). Mow high, use sharp blades, avoid tight turns.
+- [How to Water Your Lawn the Right Way in Missouri](https://redbirdlawnservice.com/blog/how-to-water-lawn-right-way-missouri): Apply one inch of water per week in one or two deep sessions. Water before 10 AM. Deep watering produces deep roots.
 
 ## Service Area
+
 - Wentzville, MO 63385
 - O'Fallon, MO
 - Lake Saint Louis, MO
@@ -26,14 +32,19 @@
 - Foristell, MO
 
 ## Contact
+
 - Phone: (314) 497-6152
-- Email: sales@redbirdlawnservic.com
+- Website: https://redbirdlawnservice.com
 - Free Quote: https://redbirdlawnservice.com/#contact
 - AI Voice Assistant: Vivian (available on website)
 
 ## Key Facts
+
 - Locally owned and operated in Wentzville, MO
 - Fully insured residential lawn care
 - Owner: Alberto Murillo
-- Service area: St. Charles County, MO
-- Strictly residential — no commercial properties
+- No contracts required
+- Free estimates with no obligation
+- All equipment provided
+- 5-star rated on Google
+- Strictly residential, no commercial properties
