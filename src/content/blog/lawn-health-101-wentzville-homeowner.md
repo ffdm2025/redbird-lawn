@@ -6,9 +6,7 @@ excerpt: "A healthy lawn isn't luck. It's a few consistent habits done right. He
 tags: ["lawn health", "lawn care basics", "Wentzville"]
 ---
 
-When I started Redbird Lawn Care, I spent a lot of time talking to homeowners about what they actually wanted. The answer was pretty consistent: they wanted a lawn that looked good without a lot of drama.
-
-Fair enough. But getting there takes more than just mowing. Let me break down the basics.
+A healthy lawn comes down to three things: mowing at the right height, watering deeply but infrequently, and fertilizing in the fall rather than the spring. Get those three habits right and your lawn will handle heat, resist weeds, and stay green with minimal effort. Most lawn problems I see in Wentzville trace back to getting one of these basics wrong. Let me break each one down.
 
 ## Healthy Grass Starts Underground
 

@@ -6,11 +6,9 @@ excerpt: "Most homeowners water too often and not deeply enough. Here's how to w
 tags: ["watering", "lawn care basics", "Missouri", "Wentzville"]
 ---
 
-If I had to pick one area where homeowners consistently get lawn care wrong, it's watering. Not because they're neglecting the lawn. It's usually the opposite. They're watering too much, too often, and too shallowly.
+A Missouri lawn needs one inch of water per week, applied in one or two deep sessions rather than daily shallow watering. Water before 10 AM to let the grass dry during the day. Deep, infrequent watering produces deeper roots, which makes the lawn more drought-tolerant and resistant to disease.
 
-I see this pattern on lawns all over Wentzville. The irrigation system runs every morning for 10 minutes per zone. The soil at the surface is always slightly damp. And the lawn, despite all that attention, looks stressed, patchy, and thin.
-
-Here's why that happens and what to do instead.
+Most homeowners get this wrong by watering too often and too shallowly. I see this pattern on lawns all over Wentzville: the irrigation system runs every morning for 10 minutes per zone, the soil at the surface is always slightly damp, and the lawn looks stressed, patchy, and thin despite all that attention. Here's why that happens and what to do instead.
 
 ## The Deep Root Principle
 

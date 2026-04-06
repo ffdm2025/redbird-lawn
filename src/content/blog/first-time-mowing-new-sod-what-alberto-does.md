@@ -6,11 +6,9 @@ excerpt: "New sod is an investment. The first mow is one of the most important t
 tags: ["new sod", "lawn care tips", "mowing", "Wentzville"]
 ---
 
-I get called in a few times a year to care for a lawn that just had new sod installed. It might be a fresh build in one of the newer Wentzville neighborhoods, a renovation after a long-neglected backyard, or a patch job after construction damage.
+Wait at least 10 to 21 days before mowing new sod, and only after it passes the tug test: grab a corner and pull gently. If it lifts easily, the roots haven't anchored and it's not ready. If it resists, you can mow. When you do mow, set the deck higher than normal, use a sharp blade, and avoid tight turns that can tear loose sections.
 
-In every case, the homeowner wants to know the same thing: "When can we mow?"
-
-The answer is more nuanced than most people expect, and getting it wrong on the first mow can undo weeks of careful establishment.
+Getting the first mow wrong on new sod can undo weeks of careful establishment. Here's exactly how I handle new sod installs in Wentzville and what you need to know before you touch it with a mower.
 
 ## Why New Sod Is Vulnerable
 

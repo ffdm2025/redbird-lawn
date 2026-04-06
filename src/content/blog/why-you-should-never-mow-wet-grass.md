@@ -6,9 +6,9 @@ excerpt: "I've had customers call and ask if I can squeeze in a mow right after 
 tags: ["mowing", "lawn care tips", "Wentzville"]
 ---
 
-I've been doing this long enough to know that when a homeowner says "it's fine, the grass is only a little wet," what they mean is "I really want this done today." I understand. Schedules matter. But mowing wet grass is one of those shortcuts that costs more than it saves.
+Never mow wet grass. Wet mowing causes uneven cuts, heavy clumping that smothers the turf, soil compaction and ruts from heavy wheels on soft ground, and spreads fungal disease across the lawn. Wait until the grass blades are dry to the touch before mowing, which typically takes two to three hours after rain on a sunny day or half a day on a cloudy one.
 
-Let me explain what actually happens when you run a mower over wet turf.
+I know schedules matter. But mowing wet grass is one of those shortcuts that costs more than it saves. Here's what actually happens when you run a mower over wet turf.
 
 ## The Grass Doesn't Stand Up
 

@@ -6,9 +6,9 @@ excerpt: "A dull blade doesn't cut grass. It tears it. That torn edge turns brow
 tags: ["mowing", "equipment", "lawn health"]
 ---
 
-Here's something most homeowners never think about: the condition of the mower blade.
+A dull mower blade tears grass instead of cutting it, leaving ragged edges that turn brown within 24 to 48 hours and open the door to fungal disease. Sharpen your mower blades every 20 to 25 hours of use, or about two to three times per season for a residential mower. It's one of the cheapest and most effective things you can do for your lawn.
 
-You buy a nice mower, you fire it up every spring, and you run it until the season ends. But that blade? It's been hitting rocks, roots, and hardened soil all year. By mid-summer, it's not sharp anymore. And a dull blade does something most people don't realize. It doesn't cut the grass. It tears it.
+Most homeowners never think about blade condition. You fire up the mower every spring and run it until the season ends. But by mid-summer, that blade has been hitting rocks, roots, and hardened soil for months. Here's what happens when it gets dull.
 
 ## What a Dull Blade Actually Does
 

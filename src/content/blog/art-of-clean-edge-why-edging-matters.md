@@ -6,11 +6,9 @@ excerpt: "Mowing alone doesn't make a lawn look sharp. The edge does. Here's why
 tags: ["edging", "lawn care tips", "lawn appearance", "Wentzville"]
 ---
 
-There's a moment when you pull up to a house and you can tell immediately, from the driveway, whether the lawn has been properly cared for. It's not the mowing height. It's the edge.
+Edging is what makes a lawn look professionally maintained. A crisp, vertical cut along the sidewalk, driveway, and curb defines where the grass ends and the concrete begins. Edge weekly during the growing season using a rotary edger or dedicated edging attachment for a consistent, straight line. Without regular edging, grass creeps over hard surfaces through lateral stems called stolons and rhizomes, creating a blurry, unkempt look.
 
-A crisp, defined edge along the sidewalk, driveway, and curb says: someone who knows what they're doing has been here. A ragged, overgrown edge says: the mowing got done, but the finish work didn't.
-
-I take edging seriously because I've seen what it does for a property. Let me explain why it matters.
+I take edging seriously because it's the single biggest visual difference between a lawn that looks done and one that just got mowed. Let me explain why it matters and how I approach it on every property in Wentzville.
 
 ## What Edging Actually Is
 

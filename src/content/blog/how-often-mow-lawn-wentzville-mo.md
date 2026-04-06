@@ -6,9 +6,7 @@ excerpt: "The answer isn't 'once a week.' It depends on what's growing in your y
 tags: ["mowing", "lawn care basics", "Wentzville"]
 ---
 
-I get this question a lot, especially from folks who just moved into a new house in Wentzville or who are thinking about hiring a lawn service for the first time. "How often do you mow?"
-
-The honest answer: it depends. And I know that sounds like a cop-out, but hear me out.
+Most Wentzville lawns need mowing every 7 days in spring and fall, and every 10 to 14 days during summer. The exact schedule depends on your grass type, how fast it's growing, and what the weather is doing. I get this question a lot from folks who just moved into a new house or who are thinking about hiring a lawn service for the first time, so let me break it down.
 
 ## It's About Grass Growth, Not the Calendar
 

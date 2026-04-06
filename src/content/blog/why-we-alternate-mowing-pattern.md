@@ -6,7 +6,7 @@ excerpt: "There's a reason professional lawn care crews change up their mowing d
 tags: ["mowing", "lawn care tips", "Wentzville"]
 ---
 
-If you've ever watched a professional crew mow a baseball field or a golf course, you've probably noticed they don't always go the same direction. There's a reason for that, and it applies to residential lawns in Wentzville just as much.
+Alternating your mowing direction every week prevents soil compaction, keeps grass growing upright, and creates those professional-looking lawn stripes. Mowing the same direction every time causes grass to lean permanently and creates visible ruts where the wheels compact the soil. Here's why changing direction matters and how I handle it on every property in Wentzville.
 
 ## Grass Leans the Way You Push It
 

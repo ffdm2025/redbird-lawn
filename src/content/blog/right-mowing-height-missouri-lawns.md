@@ -6,9 +6,7 @@ excerpt: "Cut too short and you stress the grass. Cut too tall and you invite pr
 tags: ["mowing", "lawn care basics", "Missouri", "Wentzville"]
 ---
 
-One of the most common mistakes I see on lawns across Wentzville is cutting too short. Homeowners think short grass looks neat and tidy, and they want to stretch the time between mowing sessions. I get it. But cutting grass too short is one of the most damaging things you can do to a lawn.
-
-Let me explain what's actually happening when you mow, and why height is one of the most important things I manage for every customer.
+Cool-season grasses like tall fescue, the most common lawn grass in Wentzville and St. Charles County, should be maintained at 3 to 4 inches during the growing season. Raise to 3.5 to 4 inches in summer for heat protection, and lower to 2.5 to 3 inches on the final fall cut. Cutting shorter than that is one of the most common mistakes I see, and one of the most damaging things you can do to a lawn. Let me explain why.
 
 ## The Science Behind Mowing Height
 
