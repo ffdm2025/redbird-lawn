@@ -6,7 +6,7 @@ import { getCollection } from 'astro:content';
 const allPosts = await getCollection('blog');
 const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-const title = 'Lawn Care Blog | Redbird Lawn Care Service – Wentzville, MO';
+const title = 'Lawn Care Blog | Redbird Lawn Service – Wentzville, MO';
 const description = 'Practical lawn care tips from Alberto Murillo of Redbird Lawn Care in Wentzville, MO. Mowing, edging, watering, and more — written for Missouri homeowners.';
 ---
 

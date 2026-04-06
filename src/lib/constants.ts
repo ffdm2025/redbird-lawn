@@ -5,7 +5,7 @@
 export const SITE_URL = 'https://redbirdlawnservice.com';
 
 export const NAP = {
-  name: 'Redbird Lawn Care Service',
+  name: 'Redbird Lawn Service',
   phone: '(314) 497-6152',
   phoneHref: 'tel:+13144976152',
   email: 'sales@redbirdlawnservic.com',
