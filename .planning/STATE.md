@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 05-01-PLAN.md
-last_updated: "2026-04-06T00:10:35.703Z"
+stopped_at: Completed 06-01-PLAN.md
+last_updated: "2026-04-06T01:50:42.156Z"
 last_activity: 2026-04-06
 progress:
-  total_phases: 5
+  total_phases: 6
   completed_phases: 5
-  total_plans: 13
-  completed_plans: 13
+  total_plans: 16
+  completed_plans: 14
   percent: 0
 ---
 
@@ -21,12 +21,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-05)
 
 **Core value:** Rank for "lawn care services near Wentzville, MO," load under 100ms TTFB, and convert residential homeowners into quote requests
-**Current focus:** Phase 05 — qa-launch
+**Current focus:** Phase 06 — blog-content
 
 ## Current Position
 
-Phase: 05
-Plan: Not started
+Phase: 06 (blog-content) — EXECUTING
+Plan: 2 of 3
 Status: Ready to execute
 Last activity: 2026-04-06
 
@@ -61,6 +61,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 03-static-content-visual P03 | 4 | 2 tasks | 6 files |
 | Phase 04-react-islands-integrations P02 | 198 | 2 tasks | 5 files |
 | Phase 05-qa-launch P01 | 82 | 2 tasks | 2 files |
+| Phase 06-blog-content P01 | 224 | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -97,6 +98,8 @@ Recent decisions affecting current work:
 - [Phase 04-react-islands-integrations]: VAPIWidget uses client:only=react with JSDoc guard — WebRTC APIs crash Node.js SSR; never use client:load
 - [Phase 05-qa-launch]: ContactForm changed to client:idle — below-fold form deferred to browser idle, reduces render-blocking JS
 - [Phase 05-qa-launch]: PERF-05 JS budget override documented — VAPI SDK + React runtime exceed original 80KB target by design; 500KB total page budget remains binding
+- [Phase 06-blog-content]: Astro 6 requires src/content.config.ts with glob() loader — legacy src/content/config.ts removed in v6
+- [Phase 06-blog-content]: Use entry.id instead of entry.slug with Astro 6 glob loader
 
 ### Pending Todos
 
@@ -111,6 +114,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06T00:09:27.489Z
-Stopped at: Completed 05-01-PLAN.md
+Last session: 2026-04-06T01:50:42.146Z
+Stopped at: Completed 06-01-PLAN.md
 Resume file: None

@@ -108,8 +108,8 @@
 
 ### Blog
 
-- [ ] **BLOG-01**: Blog infrastructure — Astro content collection, blog index page at /blog, individual post layout at /blog/{slug}
-- [ ] **BLOG-02**: Navigation updated with "Blog" link on desktop and mobile
+- [x] **BLOG-01**: Blog infrastructure — Astro content collection, blog index page at /blog, individual post layout at /blog/{slug}
+- [x] **BLOG-02**: Navigation updated with "Blog" link on desktop and mobile
 - [ ] **BLOG-03**: Article — How Often Should You Mow Your Lawn in Wentzville, MO? (mowing frequency)
 - [ ] **BLOG-04**: Article — Lawn Health 101: What Every Wentzville Homeowner Should Know (lawn health basics)
 - [ ] **BLOG-05**: Article — Why Sharp Mower Blades Matter More Than You Think (blade sharpness)

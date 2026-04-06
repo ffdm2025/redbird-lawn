@@ -129,6 +129,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 **Plans**: 3 plans
 
 Plans:
-- [ ] 06-01-PLAN.md — Blog infrastructure: content collection schema, index page, post layout, Article JSON-LD, nav updates
+- [x] 06-01-PLAN.md — Blog infrastructure: content collection schema, index page, post layout, Article JSON-LD, nav updates
 - [ ] 06-02-PLAN.md — Articles 1-5: mowing frequency, lawn health 101, sharp blades, mowing pattern, mowing height
 - [ ] 06-03-PLAN.md — Articles 6-9: wet grass, edging, new sod, watering guide (parallel with Plan 02)
