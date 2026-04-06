@@ -26,7 +26,7 @@
 
 - [x] **CONV-01**: Primary CTA "Get a Free Quote" button in hero linking to contact form
 - [x] **CONV-02**: Click-to-call button for (314) 497-6152 in header and hero
-- [ ] **CONV-03**: Lead capture form (Name, Address, Phone, Service Requested) posting to GHL webhook
+- [x] **CONV-03**: Lead capture form (Name, Address, Phone, Service Requested) posting to GHL webhook
 - [x] **CONV-04**: Response time promise displayed near form ("We respond within 24 hours")
 - [x] **CONV-05**: Sticky mobile header with phone number visible at all times
 
@@ -46,7 +46,8 @@
 - [ ] **PERF-02**: Lighthouse SEO score 100
 - [ ] **PERF-03**: Lighthouse Accessibility score 95+
 - [ ] **PERF-04**: Lighthouse Best Practices score 100
-- [ ] **PERF-05**: Total homepage < 500KB, JS < 80KB, CSS < 50KB, Fonts < 150KB
+- [ ] **PERF-05**: Total homepage < 500KB, JS < 80KB*, CSS < 50KB, Fonts < 150KB
+  > *JS budget note: @vapi-ai/web SDK (~200KB minified) + React runtime exceed the original 80KB target. Budget set before VAPI was a requirement. Total page < 500KB remains binding. ContactForm changed to client:idle to minimize render-blocking JS.
 - [ ] **PERF-06**: Sub-100ms TTFB on Cloudflare Pages
 - [ ] **PERF-07**: All images optimized (WebP/AVIF via Astro Image component, lazy loading below fold)
 
@@ -59,10 +60,10 @@
 
 ### Voice Assistant
 
-- [ ] **VAPI-01**: VAPI widget (Vivian) integrated as floating button using @vapi-ai/web 2.5.2
-- [ ] **VAPI-02**: Widget rendered via client:only="react" (never SSR)
-- [ ] **VAPI-03**: Microphone permission handling with graceful error states
-- [ ] **VAPI-04**: CSP headers configured with unsafe-eval for VAPI SDK
+- [x] **VAPI-01**: VAPI widget (Vivian) integrated as floating button using @vapi-ai/web 2.5.2
+- [x] **VAPI-02**: Widget rendered via client:only="react" (never SSR)
+- [x] **VAPI-03**: Microphone permission handling with graceful error states
+- [x] **VAPI-04**: CSP headers configured with unsafe-eval for VAPI SDK
 
 ### Deployment
 
@@ -138,11 +139,11 @@
 | VISL-02 | Phase 3 | Complete |
 | VISL-03 | Phase 3 | Complete |
 | VISL-04 | Phase 3 | Complete |
-| CONV-03 | Phase 4 | Pending |
-| VAPI-01 | Phase 4 | Pending |
-| VAPI-02 | Phase 4 | Pending |
-| VAPI-03 | Phase 4 | Pending |
-| VAPI-04 | Phase 4 | Pending |
+| CONV-03 | Phase 4 | Complete |
+| VAPI-01 | Phase 4 | Complete |
+| VAPI-02 | Phase 4 | Complete |
+| VAPI-03 | Phase 4 | Complete |
+| VAPI-04 | Phase 4 | Complete |
 | PERF-01 | Phase 5 | Pending |
 | PERF-02 | Phase 5 | Pending |
 | PERF-03 | Phase 5 | Pending |
