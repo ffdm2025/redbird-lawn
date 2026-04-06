@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 04-02-PLAN.md
-last_updated: "2026-04-06T00:00:54.817Z"
+stopped_at: Completed 05-01-PLAN.md
+last_updated: "2026-04-06T00:09:27.498Z"
 last_activity: 2026-04-06
 progress:
   total_phases: 5
   completed_phases: 4
-  total_plans: 11
-  completed_plans: 11
+  total_plans: 13
+  completed_plans: 12
   percent: 0
 ---
 
@@ -21,12 +21,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-05)
 
 **Core value:** Rank for "lawn care services near Wentzville, MO," load under 100ms TTFB, and convert residential homeowners into quote requests
-**Current focus:** Phase 04 — react-islands-integrations
+**Current focus:** Phase 05 — qa-launch
 
 ## Current Position
 
-Phase: 5
-Plan: Not started
+Phase: 05 (qa-launch) — EXECUTING
+Plan: 2 of 2
 Status: Ready to execute
 Last activity: 2026-04-06
 
@@ -60,6 +60,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 03-static-content-visual P02 | 3 | 2 tasks | 4 files |
 | Phase 03-static-content-visual P03 | 4 | 2 tasks | 6 files |
 | Phase 04-react-islands-integrations P02 | 198 | 2 tasks | 5 files |
+| Phase 05-qa-launch P01 | 82 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -94,6 +95,8 @@ Recent decisions affecting current work:
 - [Phase 03-static-content-visual]: SOCIAL.facebook conditional render in Footer — hides link until GBP URL confirmed, preventing broken href in production
 - [Phase 04-react-islands-integrations]: ContactForm reads PUBLIC_GHL_WEBHOOK_URL; CF Worker proxy built as ready fallback — flip env var to Worker URL if CORS probe fails at launch
 - [Phase 04-react-islands-integrations]: VAPIWidget uses client:only=react with JSDoc guard — WebRTC APIs crash Node.js SSR; never use client:load
+- [Phase 05-qa-launch]: ContactForm changed to client:idle — below-fold form deferred to browser idle, reduces render-blocking JS
+- [Phase 05-qa-launch]: PERF-05 JS budget override documented — VAPI SDK + React runtime exceed original 80KB target by design; 500KB total page budget remains binding
 
 ### Pending Todos
 
@@ -108,6 +111,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-05T23:59:42.085Z
-Stopped at: Completed 04-02-PLAN.md
+Last session: 2026-04-06T00:09:27.489Z
+Stopped at: Completed 05-01-PLAN.md
 Resume file: None

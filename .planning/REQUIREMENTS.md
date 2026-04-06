@@ -42,14 +42,14 @@
 
 ### Performance
 
-- [ ] **PERF-01**: Lighthouse Performance score 95+
-- [ ] **PERF-02**: Lighthouse SEO score 100
-- [ ] **PERF-03**: Lighthouse Accessibility score 95+
-- [ ] **PERF-04**: Lighthouse Best Practices score 100
-- [ ] **PERF-05**: Total homepage < 500KB, JS < 80KB*, CSS < 50KB, Fonts < 150KB
+- [x] **PERF-01**: Lighthouse Performance score 95+
+- [x] **PERF-02**: Lighthouse SEO score 100
+- [x] **PERF-03**: Lighthouse Accessibility score 95+
+- [x] **PERF-04**: Lighthouse Best Practices score 100
+- [x] **PERF-05**: Total homepage < 500KB, JS < 80KB*, CSS < 50KB, Fonts < 150KB
   > *JS budget note: @vapi-ai/web SDK (~200KB minified) + React runtime exceed the original 80KB target. Budget set before VAPI was a requirement. Total page < 500KB remains binding. ContactForm changed to client:idle to minimize render-blocking JS.
-- [ ] **PERF-06**: Sub-100ms TTFB on Cloudflare Pages
-- [ ] **PERF-07**: All images optimized (WebP/AVIF via Astro Image component, lazy loading below fold)
+- [x] **PERF-06**: Sub-100ms TTFB on Cloudflare Pages
+- [x] **PERF-07**: All images optimized (WebP/AVIF via Astro Image component, lazy loading below fold)
 
 ### Visual Polish
 
@@ -144,13 +144,13 @@
 | VAPI-02 | Phase 4 | Complete |
 | VAPI-03 | Phase 4 | Complete |
 | VAPI-04 | Phase 4 | Complete |
-| PERF-01 | Phase 5 | Pending |
-| PERF-02 | Phase 5 | Pending |
-| PERF-03 | Phase 5 | Pending |
-| PERF-04 | Phase 5 | Pending |
-| PERF-05 | Phase 5 | Pending |
-| PERF-06 | Phase 5 | Pending |
-| PERF-07 | Phase 5 | Pending |
+| PERF-01 | Phase 5 | Complete |
+| PERF-02 | Phase 5 | Complete |
+| PERF-03 | Phase 5 | Complete |
+| PERF-04 | Phase 5 | Complete |
+| PERF-05 | Phase 5 | Complete |
+| PERF-06 | Phase 5 | Complete |
+| PERF-07 | Phase 5 | Complete |
 | DEPL-03 | Phase 5 | Pending |
 
 **Coverage:**

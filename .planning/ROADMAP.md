@@ -92,11 +92,15 @@ Plans:
 **Requirements**: PERF-01, PERF-02, PERF-03, PERF-04, PERF-05, PERF-06, PERF-07, DEPL-03
 **Success Criteria** (what must be TRUE):
   1. Lighthouse mobile audit scores: Performance 95+, SEO 100, Accessibility 95+, Best Practices 100
-  2. Total homepage transfer size is under 500KB, JS bundle is under 80KB, CSS is under 50KB, fonts are under 150KB — confirmed in DevTools Network tab
+  2. Total homepage transfer size is under 500KB, JS bundle is under 80KB*, CSS is under 50KB, fonts are under 150KB — confirmed in DevTools Network tab
   3. TTFB on the Cloudflare Pages production URL is under 100ms (measured from a US-based location)
   4. All images below the fold use lazy loading and are served as WebP or AVIF
   5. The site is live at the custom domain (redbirdlawnservice.com or confirmed alternative) with HTTPS
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [x] 05-01-PLAN.md — Performance optimization: ContactForm client:idle, CSP verification, PERF-05 budget override documented
+- [ ] 05-02-PLAN.md — Lighthouse audit + Cloudflare Pages production deploy + custom domain checkpoint
 
 ## Progress
 
@@ -109,4 +113,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. Layout Shell + SEO | 1/2 | In Progress|  |
 | 3. Static Content + Visual | 3/3 | Complete   | 2026-04-05 |
 | 4. React Islands + Integrations | 2/3 | In Progress|  |
-| 5. QA + Launch | 0/TBD | Not started | - |
+| 5. QA + Launch | 1/2 | In Progress|  |
