@@ -82,8 +82,8 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01-PLAN.md — CSP headers, env var scaffold, MobileNav island wired into Header
-- [ ] 04-02-PLAN.md — ContactForm (GHL CORS probe gate + form island) + VAPIWidget island wired into Layout
+- [x] 04-01-PLAN.md — CSP headers, env var scaffold, MobileNav island wired into Header
+- [x] 04-02-PLAN.md — ContactForm (GHL CORS probe gate + form island) + VAPIWidget island wired into Layout
 - [ ] 04-03-PLAN.md — Human verification of all three islands end-to-end
 
 ### Phase 5: QA + Launch
@@ -108,5 +108,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation | 2/3 | In Progress|  |
 | 2. Layout Shell + SEO | 1/2 | In Progress|  |
 | 3. Static Content + Visual | 3/3 | Complete   | 2026-04-05 |
-| 4. React Islands + Integrations | 0/3 | Not started | - |
+| 4. React Islands + Integrations | 2/3 | In Progress|  |
 | 5. QA + Launch | 0/TBD | Not started | - |
