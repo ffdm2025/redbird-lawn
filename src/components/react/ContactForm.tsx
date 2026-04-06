@@ -67,9 +67,9 @@ export default function ContactForm() {
           lastName: nameParts.slice(1).join(' ') || '',
           phone: formData.phone,
           address1: formData.address,
-          customData: {
-            serviceRequested: formData.service,
-            source: 'website-contact-form',
+          tags: ['website-form'],
+          customField: {
+            service_requested: formData.service,
           },
         }),
       });
