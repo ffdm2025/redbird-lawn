@@ -3,14 +3,23 @@
 // Sticky header — visible at all times while scrolling (CONV-05)
 // Click-to-call phone link always visible on mobile (CONV-02)
 // NAP data ONLY from constants.ts — never hardcoded
+import { Image } from 'astro:assets';
 import { NAP } from '../../lib/constants';
 import MobileNav from '../react/MobileNav';
+import headerLogo from '../../assets/logos/header-logo.png';
 ---
 <header class="sticky top-0 z-50 bg-white dark:bg-dark-bg shadow-sm border-b border-gray-100 dark:border-gray-800">
   <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-    <!-- Brand name -->
-    <a href="/" class="font-heading font-bold text-lg text-forest-green dark:text-light-green hover:text-mid-green transition-colors">
-      {NAP.name}
+    <!-- Brand logo -->
+    <a href="/" class="flex-shrink-0" aria-label={`${NAP.name} — Home`}>
+      <Image
+        src={headerLogo}
+        alt={NAP.name}
+        width={200}
+        height={48}
+        loading="eager"
+        class="h-10 w-auto"
+      />
     </a>
 
     <!-- Desktop nav (hidden on mobile — MobileNav React island added in Phase 4) -->
