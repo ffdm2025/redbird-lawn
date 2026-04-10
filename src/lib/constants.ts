@@ -19,4 +19,5 @@ export const NAP = {
 
 export const SOCIAL = {
   facebook: 'https://www.facebook.com/redbirdlawnservicewentzville',
+  gbp: 'https://share.google/1zERrYZLes3hkJIH6',
 } as const;

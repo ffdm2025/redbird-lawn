@@ -38,8 +38,15 @@ export function buildLocalBusinessSchema() {
       }
     ],
     "sameAs": [
-      SOCIAL.facebook
-    ]
+      SOCIAL.facebook,
+      SOCIAL.gbp
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "3",
+      "bestRating": "5"
+    }
   } as const;
 }
 
