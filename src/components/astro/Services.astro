@@ -14,6 +14,8 @@ const mulchIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24
 
 const seasonalIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8C8 10 5.9 16.17 3.82 19.8"/><path d="M9.04 14.19 8 16 4 18"/><path d="m7 20 2-1.5"/><path d="M9.04 14.19C10.11 12.28 13.4 10.14 17 8"/><path d="M12 6C9 6 6 8 5 11"/><path d="M17 8c1.45-.66 2.45-1 3-1 0 1-1.5 4.5-5 6"/><path d="M2 21c3.2-4.8 6-8 10-9"/></svg>`;
 
+const sodIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M12 6v12"/><path d="M2 12h20"/><path d="M6 6v12"/><path d="M18 6v12"/></svg>`;
+
 const services = [
   {
     title: "Weekly Mowing",
@@ -67,6 +69,19 @@ const services = [
     ],
     icon: seasonalIcon,
   },
+  {
+    title: "Sod Installation",
+    description: "Skip the wait — go from bare dirt to a full, green lawn in a single day with professional sod installation.",
+    includes: [
+      "Remove old grass, weeds & debris",
+      "Grade and level soil for proper drainage",
+      "Amend soil with compost for healthy roots",
+      "Lay fresh sod with tight, seamless seams",
+      "Roll sod for full soil contact",
+      "Post-install watering plan & care guide",
+    ],
+    icon: sodIcon,
+  },
 ];
 ---
 <section
@@ -88,8 +103,8 @@ const services = [
       </p>
     </div>
 
-    <!-- 4-card grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <!-- 5-card grid — last card centers on lg when odd count -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {services.map((service, i) => (
         <ServiceCard
           title={service.title}

@@ -166,6 +166,10 @@ export function buildServiceSchema() {
       name: "Seasonal Lawn Cleanup in Wentzville, MO",
       description: "Spring and fall cleanup services including leaf removal, dethatching, aeration, final mow, gutter blowout, and debris haul-away.",
     },
+    {
+      name: "Sod Installation in Wentzville, MO",
+      description: "Professional sod installation including old lawn removal, soil grading and leveling, compost amendment, fresh sod laying with seamless seams, sod rolling, and post-install care guidance.",
+    },
   ];
 
   return services.map((service) => ({
