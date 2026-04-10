@@ -1,0 +1,164 @@
+---
+// src/pages/privacy.astro
+import Layout from '../layouts/Layout.astro';
+import { NAP } from '../lib/constants';
+
+const effectiveDate = 'April 10, 2026';
+const gaId = 'G-40ESCV2SEF';
+---
+
+<Layout
+  title={`Privacy Policy | ${NAP.name}`}
+  description={`Privacy Policy for ${NAP.name}, a residential lawn care company in ${NAP.address.city}, ${NAP.address.state}. Learn what data we collect and how we use it.`}
+>
+  <article class="max-w-2xl mx-auto px-4 py-16">
+
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-400 dark:text-gray-500 mb-8" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-forest-green dark:hover:text-light-green transition-colors">Home</a>
+      <span class="mx-2">›</span>
+      <span class="text-gray-600 dark:text-gray-300">Privacy Policy</span>
+    </nav>
+
+    <!-- Page header -->
+    <header class="mb-10">
+      <h1 class="font-heading font-bold text-3xl md:text-4xl text-gray-900 dark:text-gray-50 leading-tight mb-3">
+        Privacy Policy
+      </h1>
+      <p class="text-sm text-gray-500 dark:text-gray-400">
+        Effective date: <time datetime="2026-04-10">{effectiveDate}</time>
+      </p>
+    </header>
+
+    <!-- Policy body -->
+    <div class="prose prose-gray dark:prose-invert prose-headings:font-heading prose-headings:font-semibold prose-a:text-forest-green dark:prose-a:text-light-green prose-a:no-underline hover:prose-a:underline max-w-none">
+
+      <p>
+        {NAP.name} is a residential lawn care company based in {NAP.address.city}, {NAP.address.state} {NAP.address.zip}.
+        We take your privacy seriously. This page explains what information we collect when you visit our website or contact us, how we use it, and how you can reach us with questions.
+      </p>
+
+      <h2>What information we collect</h2>
+
+      <h3>Contact form</h3>
+      <p>
+        When you fill out our quote request or contact form, we collect:
+      </p>
+      <ul>
+        <li>Your name</li>
+        <li>Your service address</li>
+        <li>Your phone number</li>
+        <li>The service you are requesting (e.g., mowing, cleanup)</li>
+      </ul>
+      <p>
+        We use this information only to respond to your request and schedule service. We do not add you to any marketing lists without your permission.
+      </p>
+
+      <h3>Voice widget (VAPI)</h3>
+      <p>
+        Our website includes a voice assistant powered by VAPI. If you choose to use it, the conversation — including your voice — is processed by VAPI's servers to respond to your questions. VAPI may store a transcript or recording of the call. You are not required to use this feature; you can always call or email us directly instead.
+      </p>
+      <p>
+        You can review VAPI's own privacy practices at <a href="https://vapi.ai/privacy" target="_blank" rel="noopener noreferrer">vapi.ai/privacy</a>.
+      </p>
+
+      <h3>Google Analytics (GA4)</h3>
+      <p>
+        We use Google Analytics 4 (measurement ID: <code>{gaId}</code>) to understand how visitors use our website. This helps us improve the site over time. Google Analytics collects information such as:
+      </p>
+      <ul>
+        <li>Pages you visit and how long you spend on them</li>
+        <li>General location (city/region level, not your exact address)</li>
+        <li>Device type and browser</li>
+        <li>How you arrived at the site (search, social media, etc.)</li>
+      </ul>
+      <p>
+        This data is collected through cookies and similar tracking technologies. It does not include your name, phone number, or email address unless you submit a form.
+      </p>
+
+      <h2>Cookies</h2>
+      <p>
+        Our site uses cookies placed by Google Analytics. These cookies help Google count visits and track how traffic flows through the site. Common GA4 cookies include <code>_ga</code> and <code>_ga_{gaId.replace('G-', '')}</code>. They typically expire after 2 years.
+      </p>
+      <p>
+        You can opt out of Google Analytics tracking at any time by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a>, or by adjusting your browser's cookie settings.
+      </p>
+
+      <h2>How we use your information</h2>
+      <p>We use your information to:</p>
+      <ul>
+        <li>Respond to quote requests and schedule lawn care service</li>
+        <li>Follow up on jobs we have completed</li>
+        <li>Improve our website based on anonymous traffic data</li>
+      </ul>
+
+      <h2>We do not sell your data</h2>
+      <p>
+        We do not sell, rent, or trade your personal information to any third party — ever. We are a local lawn care company, not a data broker.
+      </p>
+
+      <h2>Third-party services</h2>
+      <p>
+        The only third-party tools that may receive your data are:
+      </p>
+      <ul>
+        <li><strong>Google Analytics</strong> — anonymous website traffic data</li>
+        <li><strong>VAPI</strong> — voice call data if you use the voice assistant</li>
+      </ul>
+      <p>
+        Both of these services have their own privacy policies that govern how they handle data on their end.
+      </p>
+
+      <h2>How we protect your information</h2>
+      <p>
+        Our website is served over HTTPS (encrypted). Contact form submissions are sent directly to our business email. We do not store form data in a public database.
+      </p>
+
+      <h2>How to request data deletion</h2>
+      <p>
+        If you have contacted us and would like us to delete your information from our records, just reach out and ask. We will take care of it promptly.
+      </p>
+      <ul>
+        <li>Email: <a href={`mailto:${NAP.email}`}>{NAP.email}</a></li>
+        <li>Phone: <a href={NAP.phoneHref}>{NAP.phone}</a></li>
+      </ul>
+
+      <h2>Children's privacy</h2>
+      <p>
+        Our website is not directed at children under 13. We do not knowingly collect personal information from children.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        If we make any significant changes to this privacy policy, we will update the effective date at the top of this page. We recommend checking back occasionally if you have questions about how your data is handled.
+      </p>
+
+      <h2>Contact us</h2>
+      <p>
+        Questions about this policy? Get in touch:
+      </p>
+      <address class="not-italic">
+        <strong>{NAP.name}</strong><br />
+        {NAP.address.city}, {NAP.address.state} {NAP.address.zip}<br />
+        <a href={`mailto:${NAP.email}`}>{NAP.email}</a><br />
+        <a href={NAP.phoneHref}>{NAP.phone}</a>
+      </address>
+
+    </div>
+
+    <!-- CTA footer -->
+    <aside class="mt-16 rounded-xl bg-forest-green dark:bg-forest-green/80 p-8 text-white text-center">
+      <p class="font-heading font-bold text-xl mb-2">Ready for a Lawn That Turns Heads?</p>
+      <p class="text-green-100 mb-6 text-sm">
+        Call {NAP.name} for a free quote. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.
+      </p>
+      <a
+        href={NAP.phoneHref}
+        class="inline-flex items-center gap-2 bg-redbird-red hover:bg-[#a01830] text-white font-semibold px-6 py-3 rounded-full transition-colors"
+      >
+        Call {NAP.phone}
+      </a>
+    </aside>
+
+  </article>
+</Layout>

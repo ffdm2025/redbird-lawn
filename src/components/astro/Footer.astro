@@ -83,7 +83,10 @@ const currentYear = new Date().getFullYear();
     <!-- Bottom bar -->
     <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-light-green/60">
       <p>&copy; {currentYear} {NAP.name}. All rights reserved.</p>
-      <p>Proudly serving Wentzville and St. Charles County, MO</p>
+      <div class="flex items-center gap-4">
+        <p>Proudly serving Wentzville and St. Charles County, MO</p>
+        <a href="/privacy" class="hover:text-white transition-colors whitespace-nowrap">Privacy Policy</a>
+      </div>
     </div>
   </div>
 </footer>

@@ -12,9 +12,15 @@ import Testimonials from '../components/astro/Testimonials.astro';
 import Footer from '../components/astro/Footer.astro';
 import ContactForm from '../components/react/ContactForm';
 import { buildFAQSchema, buildServiceSchema } from '../lib/schema';
+import { getCollection } from 'astro:content';
 
 const faqSchema = buildFAQSchema();
 const serviceSchemas = buildServiceSchema();
+
+const allPosts = await getCollection('blog');
+const latestPosts = allPosts
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
 ---
 <Layout
   title="Lawn Care Service in Wentzville, MO | Redbird Lawn Service"
@@ -33,6 +39,26 @@ const serviceSchemas = buildServiceSchema();
     <Services />
     <About />
     <Testimonials />
+
+    <section id="why-redbird" class="py-16 sm:py-20 px-4 bg-white dark:bg-dark-bg" aria-labelledby="why-heading">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 id="why-heading" class="font-heading font-bold text-3xl sm:text-4xl text-forest-green dark:text-light-green mb-6" data-animate>
+          Why Wentzville Homeowners Choose Redbird
+        </h2>
+        <p class="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-8" data-animate>
+          There's no shortage of lawn mowing companies in St. Charles County.
+          Here's what makes Redbird Lawn Service different: we're local, we show up on time,
+          and we treat every yard like it's our own — because we live right here in Wentzville.
+        </p>
+        <ul class="text-left space-y-3 text-gray-600 dark:text-gray-300 max-w-xl mx-auto" data-animate>
+          <li class="flex items-start gap-3"><span class="text-redbird-red font-bold mt-0.5">✓</span> No contracts — cancel anytime with zero fees</li>
+          <li class="flex items-start gap-3"><span class="text-redbird-red font-bold mt-0.5">✓</span> Fully insured for your peace of mind</li>
+          <li class="flex items-start gap-3"><span class="text-redbird-red font-bold mt-0.5">✓</span> Professional-grade equipment on every visit</li>
+          <li class="flex items-start gap-3"><span class="text-redbird-red font-bold mt-0.5">✓</span> Free estimates — no pressure, no surprise invoices</li>
+          <li class="flex items-start gap-3"><span class="text-redbird-red font-bold mt-0.5">✓</span> Serving Wentzville, O'Fallon, Lake Saint Louis, Troy & Foristell</li>
+        </ul>
+      </div>
+    </section>
 
     <!-- FAQ section — question-based headings for SEO and AI citability -->
     <section
@@ -94,6 +120,80 @@ const serviceSchemas = buildServiceSchema();
             </p>
           </div>
 
+          <div data-animate>
+            <h3 class="font-heading font-semibold text-xl text-forest-green dark:text-light-green mb-2">
+              How much does sod installation cost in Wentzville?
+            </h3>
+            <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
+              Cost depends on yard size, soil condition, and sod variety. Most residential sod jobs in
+              the Wentzville area run between $1 to $2 per square foot installed, including soil prep
+              and cleanup. We provide free on-site estimates so you know the exact price before any
+              work begins.
+            </p>
+          </div>
+
+          <div data-animate>
+            <h3 class="font-heading font-semibold text-xl text-forest-green dark:text-light-green mb-2">
+              How long does new sod take to establish?
+            </h3>
+            <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
+              In warm weather (May through August), new sod typically roots in 10 to 14 days. In
+              cooler fall temperatures, it can take 3 to 4 weeks. We provide a post-install care
+              guide with watering instructions to help your new lawn establish quickly.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Lawn Care Tips blog preview -->
+    <section id="blog-preview" class="py-16 sm:py-20 px-4 bg-white dark:bg-dark-bg" aria-labelledby="blog-preview-heading">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-10" data-animate>
+          <h2 id="blog-preview-heading" class="font-heading font-bold text-3xl sm:text-4xl text-forest-green dark:text-light-green mb-4">
+            Latest Lawn Care Tips
+          </h2>
+          <p class="text-gray-600 dark:text-gray-300 text-lg">
+            Practical advice for Wentzville homeowners — written from the seat of a mower.
+          </p>
+        </div>
+
+        <div class="grid gap-6 sm:grid-cols-3">
+          {latestPosts.map((post) => (
+            <a
+              href={`/blog/${post.id}`}
+              class="group block rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 p-6 shadow-sm hover:shadow-md hover:border-forest-green dark:hover:border-light-green transition-all duration-200"
+              data-animate
+            >
+              <div class="flex items-center gap-2 text-xs text-gray-400 dark:text-gray-500 mb-3 font-medium uppercase tracking-wide">
+                <time datetime={post.data.date.toISOString()}>
+                  {post.data.date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                </time>
+                {post.data.tags && post.data.tags[0] && (
+                  <span class="text-redbird-red">· {post.data.tags[0]}</span>
+                )}
+              </div>
+              <h3 class="font-heading font-semibold text-lg text-gray-900 dark:text-gray-100 group-hover:text-forest-green dark:group-hover:text-light-green transition-colors mb-2 leading-snug">
+                {post.data.title}
+              </h3>
+              <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed line-clamp-3">
+                {post.data.excerpt}
+              </p>
+              <span class="inline-block mt-4 text-sm font-semibold text-forest-green dark:text-light-green group-hover:underline">
+                Read more →
+              </span>
+            </a>
+          ))}
+        </div>
+
+        <div class="text-center mt-10" data-animate>
+          <a
+            href="/blog"
+            class="inline-block text-sm font-semibold text-forest-green dark:text-light-green hover:underline"
+          >
+            View all tips →
+          </a>
         </div>
       </div>
     </section>

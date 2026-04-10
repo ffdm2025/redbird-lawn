@@ -143,6 +143,22 @@ export function buildFAQSchema() {
           "@type": "Answer",
           "text": "No. Redbird Lawn Service brings all professional-grade equipment to every job. Mowers, trimmers, edgers, blowers. All you need to do is let us know when to show up."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does sod installation cost in Wentzville?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cost depends on yard size, soil condition, and sod variety. Most residential sod jobs in the Wentzville area run between $1 to $2 per square foot installed, including soil prep and cleanup. Redbird Lawn Service provides free on-site estimates so you know the exact price before any work begins."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does new sod take to establish?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In warm weather (May through August), new sod typically roots in 10 to 14 days. In cooler fall temperatures, it can take 3 to 4 weeks. Redbird Lawn Service provides a post-install care guide with watering instructions to help your new lawn establish quickly."
+        }
       }
     ]
   } as const;
