@@ -2,7 +2,7 @@
 title: "How Often Should You Mow Your Lawn in Wentzville, MO?"
 date: 2026-02-10
 author: "Alberto Murillo"
-excerpt: "The answer isn't 'once a week.' It depends on what's growing in your yard and how fast it's growing. Here's how I figure it out for every lawn I service in Wentzville."
+excerpt: "The answer isn't 'once a week.' It depends on your grass type and growth rate. Here's how I decide for Wentzville lawns."
 tags: ["mowing", "lawn care basics", "Wentzville"]
 ---
 

@@ -2,7 +2,7 @@
 title: "How to Water Your Lawn the Right Way in Missouri"
 date: 2026-04-05
 author: "Alberto Murillo"
-excerpt: "Most homeowners water too often and not deeply enough. Here's how to water a Missouri lawn correctly, less frequently, more effectively, and what I tell my Wentzville customers to do differently."
+excerpt: "Most homeowners water too often and not deeply enough. Here's how to water a Missouri lawn the right way."
 tags: ["watering", "lawn care basics", "Missouri", "Wentzville"]
 ---
 
@@ -75,7 +75,7 @@ Here's my simple watering framework for a cool-season lawn in St. Charles County
 - **September and October:** Scale back as temperatures cool and rainfall typically increases.
 - **November through March:** No watering needed. Let the lawn rest.
 
-**Questions about your irrigation schedule or lawn health? Call Redbird at (314) 497-6152. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.**
+**Questions about your irrigation schedule or lawn health? [Get a free quote](https://redbirdlawnservice.com/#contact) or call Redbird at (314) 497-6152. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.**
 
 ---
 

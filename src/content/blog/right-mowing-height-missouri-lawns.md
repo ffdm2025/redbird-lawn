@@ -2,7 +2,7 @@
 title: "What's the Right Mowing Height for Missouri Lawns?"
 date: 2026-03-10
 author: "Alberto Murillo"
-excerpt: "Cut too short and you stress the grass. Cut too tall and you invite problems. Here's how I set mowing height for cool-season lawns in Wentzville and why it changes with the seasons."
+excerpt: "Cut too short and you stress it. Cut too tall and you invite problems. Here's how I set mowing height for Wentzville lawns."
 tags: ["mowing", "lawn care basics", "Missouri", "Wentzville"]
 ---
 

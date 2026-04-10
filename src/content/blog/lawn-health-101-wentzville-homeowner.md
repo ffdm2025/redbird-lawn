@@ -2,7 +2,7 @@
 title: "Lawn Health 101: What Every Wentzville Homeowner Should Know"
 date: 2026-02-17
 author: "Alberto Murillo"
-excerpt: "A healthy lawn isn't luck. It's a few consistent habits done right. Here's what I've learned after years of caring for lawns in Wentzville and St. Charles County."
+excerpt: "A healthy lawn isn't luck. It's a few consistent habits done right. Here's what I've learned caring for lawns in Wentzville."
 tags: ["lawn health", "lawn care basics", "Wentzville"]
 ---
 

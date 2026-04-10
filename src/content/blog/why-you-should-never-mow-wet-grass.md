@@ -2,7 +2,7 @@
 title: "Why You Should Never Mow Wet Grass"
 date: 2026-03-17
 author: "Alberto Murillo"
-excerpt: "I've had customers call and ask if I can squeeze in a mow right after a rainstorm. My answer is always the same: let's wait. Here's why wet grass mowing causes more problems than it solves."
+excerpt: "Customers ask if I can mow right after rain. My answer is always: let's wait. Here's why wet mowing causes more harm than good."
 tags: ["mowing", "lawn care tips", "Wentzville"]
 ---
 
@@ -52,7 +52,7 @@ I never mow a customer's lawn when conditions are wet enough to cause problems. 
 
 The extra day is worth it. A clean, dry mow on Thursday looks better than a clumped, uneven wet mow on Tuesday. And it helps us maintain the [right mowing height](/blog/right-mowing-height-missouri-lawns) consistently, because we're cutting grass that's actually standing up straight.
 
-**Questions about your mowing schedule? Call Redbird at (314) 497-6152. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.**
+**Questions about your mowing schedule? [Get a free quote](https://redbirdlawnservice.com/#contact) or call Redbird at (314) 497-6152. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.**
 
 ---
 

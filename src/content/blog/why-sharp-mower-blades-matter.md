@@ -2,7 +2,7 @@
 title: "Why Sharp Mower Blades Matter More Than You Think"
 date: 2026-02-24
 author: "Alberto Murillo"
-excerpt: "A dull blade doesn't cut grass. It tears it. That torn edge turns brown, opens the door to disease, and makes your whole lawn look ragged. Here's why blade sharpness is one of the most important things we do at Redbird."
+excerpt: "A dull blade doesn't cut grass — it tears it. That torn edge turns brown and invites disease. Here's why sharp blades matter."
 tags: ["mowing", "equipment", "lawn health"]
 ---
 

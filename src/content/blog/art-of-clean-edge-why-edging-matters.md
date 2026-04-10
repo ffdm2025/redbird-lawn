@@ -2,7 +2,7 @@
 title: "The Art of a Clean Edge: Why Edging Makes Your Lawn Look Professional"
 date: 2026-03-24
 author: "Alberto Murillo"
-excerpt: "Mowing alone doesn't make a lawn look sharp. The edge does. Here's why I take edging seriously on every property in Wentzville, and what a clean edge actually tells you about who's caring for your lawn."
+excerpt: "Mowing alone doesn't make a lawn look sharp. The edge does. Here's why I take edging seriously on every Wentzville property."
 tags: ["edging", "lawn care tips", "lawn appearance", "Wentzville"]
 ---
 
@@ -52,7 +52,7 @@ Every time I service a property, edging is part of the work, not an add-on. The 
 
 When I leave a customer's property in Wentzville, I want the whole thing to look done. The mowing, the trim, the edge, the blow-off. That complete package is what professional lawn care looks like. And yes, I'm running [sharp blades](/blog/why-sharp-mower-blades-matter) and [alternating the mowing direction](/blog/why-we-alternate-mowing-pattern) on every visit too. It all adds up.
 
-**Ready for a lawn that looks sharp from the street? Call Redbird at (314) 497-6152. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.**
+**Ready for a lawn that looks sharp from the street? [Get a free quote](https://redbirdlawnservice.com/#contact) or call Redbird at (314) 497-6152. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.**
 
 ---
 

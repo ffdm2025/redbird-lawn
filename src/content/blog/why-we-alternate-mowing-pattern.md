@@ -2,7 +2,7 @@
 title: "Why We Alternate Our Mowing Pattern Every Week"
 date: 2026-03-03
 author: "Alberto Murillo"
-excerpt: "There's a reason professional lawn care crews change up their mowing direction. It keeps the grass standing upright, prevents ruts, and gives the lawn that striped look people love. Here's why we do it and how it helps your lawn."
+excerpt: "There's a reason pros change mowing direction each week. It prevents ruts, keeps grass upright, and creates those clean stripes."
 tags: ["mowing", "lawn care tips", "Wentzville"]
 ---
 

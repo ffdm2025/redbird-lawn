@@ -2,7 +2,7 @@
 title: "First Time Mowing New Sod? Here's What Alberto Does"
 date: 2026-03-31
 author: "Alberto Murillo"
-excerpt: "New sod is an investment. The first mow is one of the most important things you can do to protect it or ruin it. Here's exactly how I approach new sod installs in Wentzville and what you need to know before you touch it with a mower."
+excerpt: "New sod is an investment. The first mow can protect it or ruin it. Here's how I handle new sod in Wentzville."
 tags: ["new sod", "lawn care tips", "mowing", "Wentzville"]
 ---
 
@@ -63,7 +63,7 @@ If you've just had sod installed, here's what I tell every customer:
 
 New sod is a significant investment. The first few weeks of care are the most important. Done right, you'll have a lawn that looks great for years. Done wrong, you'll be patching and reseeding before summer is over.
 
-**Ready to set up professional care for your new lawn in Wentzville? Call Redbird at (314) 497-6152.**
+**Ready to set up professional care for your new lawn in Wentzville? [Get a free quote](https://redbirdlawnservice.com/#contact) or call Redbird at (314) 497-6152.**
 
 ---
 
