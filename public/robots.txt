@@ -1,4 +1,16 @@
-# AI Search Crawlers — allow for AI search visibility
+# Redbird Lawn Service — Crawler Policy
+# Search crawlers: allowed
+# AI search crawlers: allowed (search and citation)
+# AI training crawlers: blocked
+
+# Default: allow all search engines
+User-agent: *
+Allow: /
+
+# AI Search Crawlers — explicitly allowed for AI search visibility
+User-agent: Googlebot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
@@ -14,7 +26,10 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-# Training crawlers — block (we allow search, not training)
+User-agent: Applebot
+Allow: /
+
+# Training-only crawlers — blocked (we allow search, not training)
 User-agent: CCBot
 Disallow: /
 
@@ -24,9 +39,8 @@ Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 
-# All other crawlers
-User-agent: *
-Allow: /
+User-agent: Amazonbot
+Disallow: /
 
 Sitemap: https://redbirdlawnservice.com/sitemap-index.xml
 
