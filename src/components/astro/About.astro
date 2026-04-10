@@ -1,8 +1,9 @@
 ---
 // src/components/astro/About.astro
 // Alberto Murillo bio — first person, Wentzville community connection (CONT-04)
-// Photo: CSS placeholder until Alberto provides headshot (placeholder avoids build error)
 // H2 section heading (SEO-04)
+import { Image } from 'astro:assets';
+import albertoPhoto from '../../assets/images/alberto-murillo.png';
 ---
 <section
   id="about"
@@ -14,19 +15,14 @@
 
       <!-- Photo column -->
       <div class="flex justify-center md:justify-start" data-animate>
-        <!--
-          PLACEHOLDER: Replace this div with an <Image> component once Alberto provides headshot.
-          Import: import { Image } from 'astro:assets'; import albertoPhoto from '../../assets/images/alberto-murillo.jpg';
-          Element: <Image src={albertoPhoto} alt="Alberto Murillo, owner of Redbird Lawn Service in Wentzville, MO" width={400} height={480} loading="lazy" class="rounded-2xl object-cover shadow-xl" />
-        -->
-        <div
-          class="w-64 h-80 rounded-2xl bg-forest-green flex flex-col items-center justify-center text-white shadow-xl"
-          role="img"
-          aria-label="Alberto Murillo, owner of Redbird Lawn Service"
-        >
-          <span class="text-6xl font-bold font-heading mb-2">AM</span>
-          <span class="text-light-green text-sm font-medium">Photo Coming Soon</span>
-        </div>
+        <Image
+          src={albertoPhoto}
+          alt="Alberto Murillo, owner of Redbird Lawn Service, with professional lawn care equipment in Wentzville, MO"
+          width={400}
+          height={480}
+          loading="lazy"
+          class="rounded-2xl object-cover shadow-xl"
+        />
       </div>
 
       <!-- Bio column -->
