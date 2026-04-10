@@ -24,7 +24,7 @@ const articleSchema = buildArticleSchema({
   authorName: entry.data.author,
 });
 
-const ogTitle = `${entry.data.title} | Redbird Lawn Care`;
+const ogTitle = `${entry.data.title} | ${NAP.name}`;
 ---
 
 <Layout title={ogTitle} description={entry.data.excerpt}>
@@ -73,7 +73,7 @@ const ogTitle = `${entry.data.title} | Redbird Lawn Care`;
     <!-- CTA footer -->
     <aside class="mt-16 rounded-xl bg-forest-green dark:bg-forest-green/80 p-8 text-white text-center">
       <p class="font-heading font-bold text-xl mb-2">Ready for a Lawn That Turns Heads?</p>
-      <p class="text-green-100 mb-6 text-sm">Call Redbird Lawn Care for a free quote. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.</p>
+      <p class="text-green-100 mb-6 text-sm">Call {NAP.name} for a free quote. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.</p>
       <a
         href={NAP.phoneHref}
         class="inline-flex items-center gap-2 bg-redbird-red hover:bg-[#a01830] text-white font-semibold px-6 py-3 rounded-full transition-colors"

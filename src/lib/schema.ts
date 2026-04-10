@@ -17,7 +17,6 @@ export function buildLocalBusinessSchema() {
     "description": "Residential lawn care services in Wentzville, MO and surrounding areas including O'Fallon, Lake Saint Louis, Troy, and Foristell.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": NAP.address.street,
       "addressLocality": NAP.address.city,
       "addressRegion": NAP.address.state,
       "postalCode": NAP.address.zip,
@@ -57,7 +56,7 @@ export function buildArticleSchema(props: ArticleSchemaProps) {
   const { title, excerpt, slug, datePublished, dateModified, authorName = 'Alberto Murillo' } = props;
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "headline": title,
     "description": excerpt,
     "url": `${SITE_URL}/blog/${slug}`,

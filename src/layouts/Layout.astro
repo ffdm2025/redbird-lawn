@@ -16,7 +16,7 @@ interface Props {
 }
 
 const {
-  title = "Redbird Lawn Service | Top Rated Mowing in Wentzville, MO",
+  title = "Lawn Care Service in Wentzville, MO | Redbird Lawn Service",
   description = "Expert lawn care services near Wentzville, MO 63385. Mowing, trimming & cleanups. Serving O'Fallon, Lake Saint Louis, Troy. Get a free quote!"
 } = Astro.props;
 
@@ -31,6 +31,7 @@ const schema = buildLocalBusinessSchema();
     <slot name="head" />
   </head>
   <body>
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-forest-green focus:text-white focus:px-4 focus:py-2 focus:rounded">Skip to main content</a>
     <slot />
     <VAPIWidget client:only="react" />
     <!-- Scroll animation observer — fires once per element at 15% threshold -->

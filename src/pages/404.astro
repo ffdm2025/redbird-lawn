@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { NAP } from '../lib/constants';
+---
+<Layout title="Page Not Found | Redbird Lawn Service" description="The page you're looking for doesn't exist. Head back to our homepage for lawn care services in Wentzville, MO.">
+  <main id="main-content" class="flex flex-col items-center justify-center min-h-[60vh] px-4 py-16 text-center">
+    <h1 class="font-heading font-bold text-5xl text-forest-green dark:text-light-green mb-4">404</h1>
+    <p class="text-xl text-gray-600 dark:text-gray-300 mb-2">Page not found</p>
+    <p class="text-gray-500 dark:text-gray-400 mb-8 max-w-md">
+      The page you're looking for doesn't exist or has been moved.
+      Let's get you back on track.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4">
+      <a
+        href="/"
+        class="inline-flex items-center justify-center bg-forest-green hover:bg-forest-green/90 text-white font-semibold px-6 py-3 rounded-full transition-colors"
+      >
+        Back to Homepage
+      </a>
+      <a
+        href="/#contact"
+        class="inline-flex items-center justify-center border-2 border-forest-green text-forest-green dark:text-light-green dark:border-light-green hover:bg-forest-green hover:text-white dark:hover:bg-light-green dark:hover:text-gray-900 font-semibold px-6 py-3 rounded-full transition-colors"
+      >
+        Get a Free Quote
+      </a>
+    </div>
+    <div class="mt-8">
+      <a href="/blog" class="text-sm text-gray-500 dark:text-gray-400 hover:text-forest-green dark:hover:text-light-green transition-colors">
+        Or browse our lawn care blog
+      </a>
+    </div>
+  </main>
+</Layout>

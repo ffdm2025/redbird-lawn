@@ -16,7 +16,10 @@ import { buildFAQSchema, buildServiceSchema } from '../lib/schema';
 const faqSchema = buildFAQSchema();
 const serviceSchemas = buildServiceSchema();
 ---
-<Layout title="Redbird Lawn Service | Top Rated Mowing in Wentzville, MO">
+<Layout
+  title="Lawn Care Service in Wentzville, MO | Redbird Lawn Service"
+  description="Redbird Lawn Service provides residential lawn care in Wentzville, MO — mowing, trimming, mulch & seasonal cleanups. No contracts. Free quote today."
+>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     {serviceSchemas.map((s) => (
