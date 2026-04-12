@@ -1,0 +1,144 @@
+---
+// src/pages/terms.astro
+import Layout from '../layouts/Layout.astro';
+import { NAP } from '../lib/constants';
+
+const effectiveDate = 'April 12, 2026';
+---
+
+<Layout
+  title={`Terms of Service | ${NAP.name}`}
+  description={`Terms of Service for ${NAP.name}, a residential lawn care company in ${NAP.address.city}, ${NAP.address.state}. Read the terms that govern your use of our website and services.`}
+>
+  <article class="max-w-2xl mx-auto px-4 py-16">
+
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-400 dark:text-gray-500 mb-8" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-forest-green dark:hover:text-light-green transition-colors">Home</a>
+      <span class="mx-2">›</span>
+      <span class="text-gray-600 dark:text-gray-300">Terms of Service</span>
+    </nav>
+
+    <!-- Page header -->
+    <header class="mb-10">
+      <h1 class="font-heading font-bold text-3xl md:text-4xl text-gray-900 dark:text-gray-50 leading-tight mb-3">
+        Terms of Service
+      </h1>
+      <p class="text-sm text-gray-500 dark:text-gray-400">
+        Effective date: <time datetime="2026-04-12">{effectiveDate}</time>
+      </p>
+    </header>
+
+    <!-- Terms body -->
+    <div class="prose prose-gray dark:prose-invert prose-headings:font-heading prose-headings:font-semibold prose-a:text-forest-green dark:prose-a:text-light-green prose-a:no-underline hover:prose-a:underline max-w-none">
+
+      <p>
+        Welcome to the {NAP.name} website. By accessing or using our website at redbirdlawnservice.com, you agree to the following terms. If you do not agree, please do not use the site.
+      </p>
+
+      <h2>Who we are</h2>
+      <p>
+        {NAP.name} is a residential lawn care company based in {NAP.address.city}, {NAP.address.state} {NAP.address.zip}. We provide mowing, trimming, cleanups, sod installation, and related lawn care services in the greater St. Charles County area.
+      </p>
+
+      <h2>Use of this website</h2>
+      <p>
+        This website is provided for informational purposes and to help you contact us about lawn care services. You agree to use the site only for lawful purposes. You may not:
+      </p>
+      <ul>
+        <li>Use the site in any way that violates applicable local, state, or federal law</li>
+        <li>Attempt to interfere with the site's operation or security</li>
+        <li>Submit false or misleading information through our forms or chat</li>
+        <li>Use automated tools to scrape, crawl, or extract data from the site beyond what is permitted by our robots.txt</li>
+      </ul>
+
+      <h2>Service quotes and scheduling</h2>
+      <p>
+        Any quotes provided through the website, phone, chat, or voice assistant are estimates only. Final pricing depends on the actual condition and scope of work at your property. A quote is not a binding contract until both parties agree on the scope and price.
+      </p>
+      <p>
+        Scheduling is subject to availability, weather, and seasonal demand. We will do our best to accommodate your preferred timing but cannot guarantee specific dates.
+      </p>
+
+      <h2>Chat widget and voice assistant</h2>
+      <p>
+        Our website includes a chat widget powered by GoHighLevel (LeadConnector) and a voice assistant powered by VAPI. These tools are provided for your convenience to ask questions and request quotes.
+      </p>
+      <ul>
+        <li>Information you share through chat or the voice assistant may be stored by the respective service provider</li>
+        <li>Conversations may be recorded or transcribed for quality and training purposes</li>
+        <li>These tools may use AI to generate responses — while we strive for accuracy, AI-generated answers are not guaranteed to be correct</li>
+        <li>For binding commitments (pricing, scheduling, scope of work), please confirm directly with our team by phone or email</li>
+      </ul>
+
+      <h2>Intellectual property</h2>
+      <p>
+        All content on this website — including text, images, logos, and design — is the property of {NAP.name} or used with permission. You may not copy, reproduce, or distribute our content without written permission.
+      </p>
+      <p>
+        Photos of lawn work on this site depict actual jobs performed by {NAP.name} unless otherwise noted.
+      </p>
+
+      <h2>Third-party links and services</h2>
+      <p>
+        Our website may contain links to third-party websites or use third-party services (Google Analytics, VAPI, GoHighLevel). We are not responsible for the content, privacy practices, or availability of these external services. Your use of third-party services is governed by their own terms.
+      </p>
+
+      <h2>Limitation of liability</h2>
+      <p>
+        This website is provided "as is" without warranties of any kind. {NAP.name} is not liable for:
+      </p>
+      <ul>
+        <li>Errors, inaccuracies, or omissions in website content</li>
+        <li>Any loss or damage resulting from your use of the website</li>
+        <li>Temporary unavailability of the website or any of its features</li>
+        <li>Actions taken based on AI-generated responses from the chat widget or voice assistant</li>
+      </ul>
+      <p>
+        Our total liability to you for any claim arising from your use of this website shall not exceed $100.
+      </p>
+
+      <h2>Indemnification</h2>
+      <p>
+        You agree to indemnify and hold harmless {NAP.name}, its owner, and its employees from any claims, damages, or expenses arising from your misuse of the website or violation of these terms.
+      </p>
+
+      <h2>Governing law</h2>
+      <p>
+        These terms are governed by the laws of the State of Missouri. Any disputes will be resolved in the courts of St. Charles County, Missouri.
+      </p>
+
+      <h2>Changes to these terms</h2>
+      <p>
+        We may update these terms from time to time. Changes take effect when posted to this page. The effective date at the top will be updated accordingly. Continued use of the site after changes constitutes acceptance of the revised terms.
+      </p>
+
+      <h2>Contact us</h2>
+      <p>
+        Questions about these terms? Get in touch:
+      </p>
+      <address class="not-italic">
+        <strong>{NAP.name}</strong><br />
+        {NAP.address.city}, {NAP.address.state} {NAP.address.zip}<br />
+        <a href={`mailto:${NAP.email}`}>{NAP.email}</a><br />
+        <a href={NAP.phoneHref}>{NAP.phone}</a>
+      </address>
+
+    </div>
+
+    <!-- CTA footer -->
+    <aside class="mt-16 rounded-xl bg-forest-green dark:bg-forest-green/80 p-8 text-white text-center">
+      <p class="font-heading font-bold text-xl mb-2">Ready for a Lawn That Turns Heads?</p>
+      <p class="text-green-100 mb-6 text-sm">
+        Call {NAP.name} for a free quote. We serve Wentzville, O'Fallon, Lake Saint Louis, Troy, and Foristell.
+      </p>
+      <a
+        href={NAP.phoneHref}
+        class="inline-flex items-center gap-2 bg-redbird-red hover:bg-[#a01830] text-white font-semibold px-6 py-3 rounded-full transition-colors"
+      >
+        Call {NAP.phone}
+      </a>
+    </aside>
+
+  </article>
+</Layout>
